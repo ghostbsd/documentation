@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 #
 # GhostBSD Handbook documentation build configuration file, created by
-# sphinx-quickstart on Tue Nov  1 20:56:58 2016.
+# sphinx-quickstart on Tue Nov  1 21:13:46 2016.
 #
 # This file is execfile()d with the current directory set to its
 # containing dir.
@@ -29,9 +29,7 @@
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-extensions = [
-    'sphinx.ext.imgmath',
-]
+extensions = []
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
