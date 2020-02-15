@@ -1,1 +1,1 @@
-# GhsotBSD Handbook
+# GhostBSD Handbook
