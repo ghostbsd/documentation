@@ -1,1 +1,1 @@
-# GhostBSD Documantaion portal
+# GhostBSD Documentaion portal
