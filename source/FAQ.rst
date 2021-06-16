@@ -5,6 +5,7 @@ This document aims to cover the most frequently asked questions concerning the G
 
 Every effort has been made to make this FAQ as informative as possible; if you have any suggestions as to how it may be improved, please feel free to contact us.
 
+.. _making_a_list:
 
 Introduction
 ------------
@@ -77,9 +78,22 @@ How can I contribute?
 There is a number of ways to contribute to the GhostBSD project:
 
     If you possess abilities in programming and knowledge of the FreeBSD operating system, or you simply want to learn these things, you might want to consider joining the team by becoming an active developer. If you are feeling adventurous, you might want to try building GhostBSD, but you might as well join us on Telegram [1] to get in touch with the team and see what work currently has to be done.
-    If you are interested in helping form the artistic perspective, you could contribute fan art, logos, wallpapers, or help design/maintain the website layout. In this case, join us on Telegram [2].
-    If you have decent writing skills and know English quite well, you might want to help by writing documents and producing website and wiki content. Get in touch with us on Telegram [3].
+    If you are interested in helping form the artistic perspective, you could contribute fan art, logos, wallpapers, or help design/maintain the website layout. In this case, join us on Telegram.
+    If you have decent writing skills and know English quite well, you might want to help by writing documents and producing website and wiki content. Get in touch with us on Telegram.
     If none of the above apply to you, you might just want to use GhostBSD and tell us about bugs you've discovered and the ideas you have about how to improve the system You can report them via forums. You might also consider simply spreading the word about GhostBSD!
     On the Contribution page you will get more information.
 
-If you feel like you might be able to help us grow and improve GhostBSD in any of the above ways (or any other way you can come up with), please contact us using the forums, or join us on Telegram [4]. 
+If you feel like you might be able to help us grow and improve GhostBSD in any of the above ways (or any other way you can come up with), please contact us using the forums, or join us on Telegram.
+
+Support
+-------
+
+What’s the best way to get support?
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+At this point, the best ways to contact other GhostBSD users or developers are:
+
+On Telegram you will meet developers and users
+
+* Element which is connected with Telegram
+* On The `GhostBSD Forums <https://forums.ghostbsd.org/>`_
