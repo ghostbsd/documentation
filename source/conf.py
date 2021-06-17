@@ -14,11 +14,10 @@
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
 
-
 # -- Project information -----------------------------------------------------
 
 project = 'GhostBSD'
-copyright = '2021, Eric Turgeon'
+copyright = '2021, GhostBSD'
 author = 'Eric Turgeon'
 
 
@@ -28,6 +27,7 @@ author = 'Eric Turgeon'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
+    'myst_parser'
 ]
 
 # Add any paths that contain templates here, relative to this directory.
