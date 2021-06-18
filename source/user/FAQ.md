@@ -63,7 +63,7 @@ In GhostBSD software can be installed in three different ways:
 
 First, you should know that most Linux software is open-source software. That is, it is freely available for many operating systems, not just Linux. Therefore, most software that runs on Linux should also run on GhostBSD.
 
-Like FreeBSD, GhostBSD uses something called Linux Binary Compatibility. In a nutshell, that means you can run many Linux applications as-is. This section of the FreeBSD Handbook explains this compatibility in more detail and describes when it does not work.
+Like FreeBSD, GhostBSD uses something called Linux Binary Compatibility. In a nutshell, that means you can run many Linux applications as-is. This **[section](https://docs.freebsd.org/en/books/handbook/linuxemu/)** of the FreeBSD Handbook explains this compatibility in more detail and describes when it does not work.
 
 However, you do not have to set up Linux Binary Compatibility on your GhostBSD system as it is already configured for you and should "just work".
 
