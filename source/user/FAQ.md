@@ -9,13 +9,11 @@ Every effort has been made to make this FAQ as informative as possible; if you h
 
 ### What is GhostBSD?
 
-
 Briefly, GhostBSD is a UNIX®-like operating system. It works on AMD64 and Intel® platforms. GhostBSD is based on FreeBSD, which is based on U.C. Berkeley’s “4.4BSD-Lite” release, with some “4.4BSD-Lite2” enhancements. It is also based indirectly on William Jolitz’s port of U.C. Berkeley’s “Net/2” to the i386, known as “386BSD”, though very little of the 386BSD code remains. At this time, GhostBSD provides MATE desktop as default version, and a community release with XFCE desktop.
 
 .. You will get more information here
 
 ### On which FreeBSD branch is GhostBSD based on?
-
 
 GhostBSD is based on the FreeBSD 13.0-STABLE branch.
 
@@ -65,14 +63,13 @@ The development team releases a new version more or less every couple of months.
 
 ### How can I contribute?
 
-
 There is a number of ways to contribute to the GhostBSD project:
 
-    If you possess abilities in programming and knowledge of the FreeBSD operating system, or you simply want to learn these things, you might want to consider joining the team by becoming an active developer. If you are feeling adventurous, you might want to try building GhostBSD, but you might as well join us on Telegram [1] to get in touch with the team and see what work currently has to be done.
-    If you are interested in helping form the artistic perspective, you could contribute fan art, logos, wallpapers, or help design/maintain the website layout. In this case, join us on Telegram.
-    If you have decent writing skills and know English quite well, you might want to help by writing documents and producing website and wiki content. Get in touch with us on Telegram.
-    If none of the above apply to you, you might just want to use GhostBSD and tell us about bugs you've discovered and the ideas you have about how to improve the system You can report them via forums. You might also consider simply spreading the word about GhostBSD!
-    On the Contribution page you will get more information.
+* If you possess abilities in programming and knowledge of the FreeBSD operating system, or you simply want to learn these things, you might want to consider joining the team by becoming an active developer. If you are feeling adventurous, you might want to try building GhostBSD, but you might as well join us on Telegram to get in touch with the team and see what work currently has to be done.
+* If you are interested in helping form the artistic perspective, you could contribute fan art, logos, wallpapers, or help design/maintain the website layout. In this case, join us on Telegram.
+* If you have decent writing skills and know English quite well, you might want to help by writing documents and producing website and wiki content. Get in touch with us on Telegram.
+* If none of the above apply to you, you might just want to use GhostBSD and tell us about bugs you've discovered and the ideas you have about how to improve the system You can report them via forums. You might also consider simply spreading the word about GhostBSD!
+* On the Contribution page you will get more information.
 
 If you feel like you might be able to help us grow and improve GhostBSD in any of the above ways (or any other way you can come up with), please contact us using the forums, or join us on Telegram.
 
