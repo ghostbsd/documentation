@@ -79,7 +79,6 @@ If you feel like you might be able to help us grow and improve GhostBSD in any o
 
 At this point, the best ways to contact other GhostBSD users or developers are:
 
-On Telegram you will meet developers and users
-
-* Element which is connected with Telegram
-* On The [GhostBSD Forums](https://forums.ghostbsd.org/)
+* On [Telegram](https://t.me/ghostbsd) you will meet developers and users
+* On [Element](https://app.element.io/#/room/#ghostbsd:matrix.org) which is connected with Telegram
+* On The [GhostBSD Forums](https://forums.ghostbsd.org)
