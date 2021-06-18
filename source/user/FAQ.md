@@ -82,4 +82,4 @@ At this point, the best ways to contact other GhostBSD users or developers are:
 On Telegram you will meet developers and users
 
 * Element which is connected with Telegram
-* On The `GhostBSD Forums <https://forums.ghostbsd.org/>`_
+* On The [GhostBSD Forums](https://forums.ghostbsd.org/)
