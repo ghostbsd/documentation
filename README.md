@@ -18,7 +18,7 @@ cd documentation
 sphinx-autobuild source build/html
 ```
 
-Now open http://127.0.0.1:8000/index.html in a web browser. It will be regenerated and refreshed whenever one of the input files changes.
+Now open http://127.0.0.1:8000/index.html in a web browser. It will be regenerated and refreshed whenever one of the files changes get saved.
 
 ## Generating documentation
 
