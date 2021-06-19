@@ -11,6 +11,7 @@ It uses Sphinx, myst-parser, [readthedocs.io](https://ghostbsd-documentation-por
 Use a local development server that regenerates the output whenever the input changes:
 
 ```
+git clone git@github.com:ghostbsd/documentation.git
 sudo pkg install -y py38-pip py38-sphinx py38-myst-parser py38-sphinx_rtd_theme gmake
 pip install docutils==0.16
 sudo pip install sphinx-autobuild
