@@ -13,7 +13,7 @@ Briefly, GhostBSD is a UNIX®-like operating system. It works on AMD64 and Intel
 
 ### Why is it called GhostBSD?
 
-GhostBSD was developed as an operating system to hack on Gnome using FreeBSD technology. After a while, it became what was referred to as **(G)nome (host)ed by Free(BSD)**, which means that Gnome is hosted on the FreeBSD system. Today GhostBSD name is still relevant to the past since MATE is a continuation of Gnome2.
+GhostBSD was developed as an operating system to hack on Gnome using FreeBSD technology. After a while, it became what was referred to as **(G)nome (host)ed by Free(BSD)**, which means that Gnome is hosted on the FreeBSD system. Today GhostBSD name is still relevant to the past since MATE is a continuation of Gnome 2.
 
 ### On which FreeBSD branch is GhostBSD based on?
 
