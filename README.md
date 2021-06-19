@@ -6,7 +6,7 @@ This repository builds automatically on every changes pushed in.
 It uses Sphinx, myst-parser, [readthedocs.io](https://ghostbsd-documentation-portal.readthedocs.io) hook to produce documentation from the Markdown source files in this repository.
 
 
-Local development server
+## Local development server
 
 Use a local development server that regenerates the output whenever the input changes:
 
