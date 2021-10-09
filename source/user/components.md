@@ -1,1 +1,1 @@
-# Components
+# Getting to know the system
