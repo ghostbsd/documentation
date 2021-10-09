@@ -13,10 +13,14 @@ In general, BSD is also considered beyond the average computer user's knowledge.
 
 
 ```{toctree}
-:caption: User documentation
+:caption: User Guide
 :hidden:
 
+user/getting-started
+user/components
+user/troubleshooting
 user/FAQ
+user/feedback
 ```
 
 
@@ -25,4 +29,14 @@ user/FAQ
 :hidden:
 
 contributor/Get_Involved
+```
+
+```{toctree}
+:caption: Developer Guide
+:hidden:
+:maxdepth: 2
+:glob:
+
+developer/contributing
+developer/acknowledgements
 ```
