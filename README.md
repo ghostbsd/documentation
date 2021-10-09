@@ -1,6 +1,6 @@
 GhostBSD Documentation portal
 =============================
-This Documantaion repository wil replace https://wiki.ghostbsd.org and builds automatically on every changes pushed in.
+This Documentaion repository wil replace https://wiki.ghostbsd.org and builds automatically on every changes pushed in.
 
 It uses Sphinx, myst-parser, [readthedocs.io](https://ghostbsd-documentation-portal.readthedocs.io) hook to produce documentation from the Markdown source files in this repository.
 
