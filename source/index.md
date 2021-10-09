@@ -26,3 +26,12 @@ user/FAQ
 
 contributor/Get_Involved
 ```
+```{toctree}
+:caption: Developer Guide
+:hidden:
+:maxdepth: 2
+:glob:
+
+developer/contributing
+developer/acknowledgements
+```
