@@ -10,6 +10,5 @@ jobs:
         with:
           token: ${{ secrets.MY_GITHUB_TOKEN }}
           project-location: ghostbsd
-          project-name: Documentation management
           project-number: 5
           column-name: Todo
