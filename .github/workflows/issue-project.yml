@@ -8,7 +8,7 @@ jobs:
       - name: Add issue to Projects
         uses: peter-evans/create-or-update-project-card@v1
         with:
-          token: MY_GITHUB_TOKEN
+          token: ${{ secrets.MY_GITHUB_TOKEN }}
           project-location: ghostbsd
           project-name: Documentation management
           project-number: 5
