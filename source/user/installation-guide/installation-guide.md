@@ -107,12 +107,14 @@ If your computer starts up by loading your existing operating system, then eithe
     Your BIOS does not support booting from the desired media. 
 
 As GhostBSD begins to boot, you will see a black screen with similar text to this:
+![Boot Menu](/source/user/installation-guide/images/Boot-Menu.png)
 
-Boot-Menu.png 
 ## Installing
+
 After you boot into the GhostBSD Live session, open a terminal window and start the installer with `gbi`. 
 ### Select Language
-Select a language.
+![Language Menu](/source/user/installation-guide/images/Installer-Select-Language.PNG)
+
 Select the language you would like to use after the installation. If a language is not provided in the selection, the language can be changed after login. 
 Note: GBI will be multilingual in the future and the language who are display is default language some of us speak. 
 
