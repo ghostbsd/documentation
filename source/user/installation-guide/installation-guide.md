@@ -107,12 +107,14 @@ If your computer starts up by loading your existing operating system, then eithe
     Your BIOS does not support booting from the desired media. 
 
 As GhostBSD begins to boot, you will see a black screen with similar text to this:
+
 ![alt text](/source/user/installation-guide/images/Boot-Menu.png "Boot Menu")
 
 ## Installing
 
 After you boot into the GhostBSD Live session, open a terminal window and start the installer with `gbi`. 
 ### Select Language
+
 ![alt text](/source/user/installation-guide/images/Installer-Select-Language.PNG "Select Language")
 
 Select the language you would like to use after the installation. If a language is not provided in the selection, the language can be changed after login. 
@@ -121,7 +123,9 @@ Note: GBI will be multilingual in the future and the language who are display is
 ### Keyboard Menu
  Selecting a keyboard layout and a variant
 The layout option is your country-specific keyboard layout. 
+
 ![alt text](/source/user/installation-guide/images/Installer-Select-Keyboard-Layout.PNG "Keyboard Layout")
+
 Note: If you use the default GhostBSD system keyboard setup you can skip by just click on forward. Also if you don't know your keyboard model and variant don't select any of those. 
 ### Time Zone
 Setting the time zone for your machine will allow it to automatically correct for any regional time changes and perform other time zone related functions properly.
@@ -129,19 +133,28 @@ Setting the time zone for your machine will allow it to automatically correct fo
 Selecting a Time Zone
 
 Select a continent and the nearest city. 
+
 ![alt text](/source/user/installation-guide/images/Installer-Select-Timezone-Continent.PNG "Timezone Select")
 
 ### ZFS Full Disk Installation
+
 ![alt text](/source/user/installation-guide/images/Installer-Select-Installation-Type.png "Select Installation")
+
 Choose the disk where GhostBSD is to be installed. 
+
 ![alt text](/source/user/installation-guide/images/Installer-ZFS-Full-Disk-Configuration.PNG "Install ZFS Full Disk")
+
 Select an available boot option. 
+
 ![alt text](/source/user/installation-guide/images/Boot-Option.png "Boot Options")
+
 ### Adding Root Password and User
 GhostBSD is designed to let the user have total control of the system, meaning that the user has root access by default and owns the entire system. GhostBSD installer lets the user choose a root password and lets them have complete access to the root account.
 Setting Root Password
 Password: The system password, also known as the root, superuser, or administrative password, is required for system administration tasks such as installing software, setting up your printer or changing settings that affect all users. You will need to remember this password for the times that you are prompted for it. The password is recommended as at least 8 characters, and you are required to type it in twice to confirm the password. 
+
 ![alt text](/source/user/installation-guide/images/Installer-Set-Root-Password.PNG "Root Password")
+
 Adding User
 
 Username: this is the name you will use when logging in. It can not contain spaces and is case sensitive
@@ -156,21 +169,22 @@ Setting The System host name
 Hostname: input the system's hostname. This name will be the system name of the network.
 
 Figure 2.8b: Adding a user and hostname. 
+
 ![alt text](/source/user/installation-guide/images/Installer-User-Setup.PNG "User Setup")
+
 ## Installation progress
-Installation Progress
-Once you select Install to start the installation, a progress screen, seen in Figure 2.9b, provides a progress bar and messages so that you can watch the installation's progress. 
+##### Installation Progress
+Once you select Install to start the installation, a progress screen, seen in Figure 2.9b, provides a progress bar and messages so that you can watch the installation's progress.
+
+![alt text](/source/user/installation-guide/images/Installer-Progress.png "Install Progress")
+
 The installation time depends upon the speed of your hardware and the version of GhostBSD you choose. A typical installation takes between 10 and 30 minutes.
-Installation Error
 
-The screen shown in Figure 2.9c appears when the installation fails.
-
-Figure 2.9c: installation error
-
+##### Installation Error
 To help users find and fix this issue please see Installation Troubleshooting
 
-File:Error.png
-Installation Success
+##### Installation Success
+![alt text](/source/user/installation-guide/images/Installer-Completed.PNG "Install Completed")
 The screen shown in Figure 2.9d appears once the installation is successfully completed. 
 Click the Restart button to reboot into your GhostBSD installation. Wait until the system exits the GUI before removing the installation media. 
 ## Installation Troubleshooting
@@ -191,6 +205,7 @@ If the system freezes and you suspect the video card to be the cause, review you
 If that change did not help, try rebooting and selecting option 2. Escape to loader prompt from the boot menu shown in Figure 2.10a below.
 
 figure 2.10a: GhostBSD Boot Menu 
+![alt text](/source/user/installation-guide/images/Boot-Menu.png "Boot Menu")
 Selecting this option will open the boot loader prompt where you can type the following commands:
 
     unload
