@@ -1,77 +1,77 @@
 # GhostBSD Installation Guide
 ## Introduction
-GhostBSD comes with a Graphical installer call GBI.
+GhostBSD comes with it's own graphical installer called **GBI**.
 
-After reading this chapter, you will know:
-
-    How to make a USB memory stick.
-    How to install GhostBSD.
-    How to start GhostBSD.
-    The questions GBI will ask you, what they mean, and how to answer them.
-    Troubleshooting the installer and live media.
+After reading this chapter, you will learn about:
+* Creating a live GhostBSD USB memory stick.
+* Installing GhostBSD.
+* Starting GhostBSD.
+* A Walkthrough of GBI.
+* Troubleshooting tips for installation & live media.
 
 ## Minimum Requirements
-Minimum System Requirements
+#### Minimum System Requirements
 
-    64-bit processor
+    64-bit x86 Processor
     4 GB of RAM
     15 GB of free hard drive space
     Network card
 
-Recommended System Requirements
+#### Recommended System Requirements
 
-    64-bit processor
+    64-bit x86 Processor
     8 GB of RAM
     30 GB of free hard drive space
     Network card
     Sound card
     3D accelerated video card
 
-Supported Processors
+##### Supported Processors
 
-GhostBSD installs on any system containing a 64-bit (amd64) processor architecture. The amd64 name refers to AMD64 (“Hammer”) and Intel® EM64T architectures. The FreeBSD 13.0 Hardware Notes lists the amd64 processors known to work.
-Supported Video Cards
-
+    GhostBSD installs on any system containing a 64-bit (amd64) processor architecture.
+    The amd64 name refers to AMD64 (“Hammer”) and Intel® EM64T architectures.
+    The FreeBSD 13.0 Hardware Notes lists the amd64 processors known to work.
+    
+##### Supported Video Cards
 GhostBSD uses X.org drivers for graphics support. During installation, graphics support will be configured automatically. Support for the major graphic vendors is as follows:
 
-NVIDIA: if you want to use 3D acceleration, NVIDIA is currently the best supported as there is a native driver for GhostBSD.
+**NVIDIA**: if you want to use 3D acceleration, NVIDIA is currently the best supported as there is a native driver for GhostBSD.
 
-Intel: 3D acceleration on most Intel graphics is supported. Due to the current KMS support, you will not be able to switch between the graphical console and a virtual console using Crtl+Alt+F#.
+**Intel**: 3D acceleration on most Intel graphics is supported. Due to the current KMS support, you will not be able to switch between the graphical console and a virtual console using Crtl+Alt+F#.
 
-ATI/Radeon: 3D acceleration on most ATI and Radeon cards is supported.
+**ATI/Radeon**: 3D acceleration on most ATI and Radeon cards is supported.
 
-Optimus: at this time Bumblebee[2] has not been ported to FreeBSD, meaning that there is no switching support between the two graphics adapters provided by Optimus. Optimus implementations vary, so GhostBSD may or may not be able to successfully load a graphics driver on your hardware. If you get a blank screen after installation, check your BIOS to see if it has an option to disable one of the graphics adapters or to set “discrete” mode. If the BIOS does not provide a discrete mode, GhostBSD will default to the 3D Intel driver and disable NVIDIA. This will change in the future when the NVIDIA driver supports Optimus.
-Wireless Cards
+**Optimus**: at this time Bumblebee[2] has not been ported to FreeBSD, meaning that there is no switching support between the two graphics adapters provided by Optimus. Optimus implementations vary, so GhostBSD may or may not be able to successfully load a graphics driver on your hardware. If you get a blank screen after installation, check your BIOS to see if it has an option to disable one of the graphics adapters or to set “discrete” mode. If the BIOS does not provide a discrete mode, GhostBSD will default to the 3D Intel driver and disable NVIDIA. This will change in the future when the NVIDIA driver supports Optimus.
+##### Wireless Cards
 
 GhostBSD supports many wireless networking cards. You can check if your card has a FreeBSD driver. If it does, it should "just work". Currently, there are some missing wireless drivers, typically for Broadcom and the newer Realtek series. N.B. USB wifi sticks may or may not be supported, it will depend on the chip used.
 
-
 ## Prerequisites
-Back Up Your Data
 
+### Back Up Your Data
 Be sure to back up all important data on the computer before installing GhostBSD. The GhostBSD installer will not provide a prompt before making changes to the hard disk drive. Once the process has started, changes to the hard disk drive cannot be undone.
-Check for FreeBSD Errata
+### Check for FreeBSD Errata
+GhostBSD is based on FreeBSD. As these problems are discovered and fixed, they are noted in 13.0-RELEASE Errata page on the FreeBSD web site. Check the errata before installing to make sure that there are no problems that might affect the installation.
 
-GhostBSD is based on Trueos, and TrueOS is based on FreeBSD. Although the TrueOS Project strives to ensure that each release of TrueOS is as stable as possible, bugs occasionally creep into the process. On very rare occasions those bugs affect the installation process. As these problems are discovered and fixed, they are noted in 13.0-RELEASE Errata page on the FreeBSD web site. Check the errata before installing to make sure that there are no problems that might affect the installation.
-Prepare the Installation Media
+## Prepare the Installation Media
 
 The GhostBSD installation media is available as a .iso file. Copies of GhostBSD installation media are available for free at the GhostBSD download page.
 Creating a bootable USB Flash Drive
 
 After downloading the appropriate .iso file, copy it to a USB flash drive using one of the methods described below. Depending on the operating system, issue one of the following appropriate commands:
-On BSD
+#### On BSD
 
     dd if=/path/to/GhostBSD-21.01.20.iso of=/dev/da0 bs=4m
 
-On Linux
+#### On Linux
 
     sudo dd if=GhostBSD-21.01.20.iso of=/dev/sdf bs=4M
 
-On Mac
+#### On Mac
 
     dd if=/path/to/GhostBSD-21.01.20.iso of=/dev/disk2 bs=10240
 
-On Windows
+#### On Windows
 
     Download the desired .iso file
     Download Disk Imager from http://sourceforge.net/projects/win32diskimager/
@@ -81,13 +81,12 @@ On Windows
     Select the downloaded file and target device, and click "Write"
     Remove your USB flash drive when the operation is complete
 
-Other USB Flash writer tools for Windows
-
-Balena Etcher [1] Works for Windows, macOS, & Linux. Rufus [2] Works just for Windows, needs a checkbox selected to do a pure write of .ISO image file
+##### Other USB Flash writer tools for Windows
+* Balena Etcher [1] Works for Windows, macOS, & Linux. Rufus [2] Works just for Windows, needs a checkbox selected to do a pure write of .ISO image file
 ISO CD / DVD writer tool
+* ISORecorder [3] works from Windows Menu to write a .ISO file into a CD or DVD
 
-ISORecorder [3] works from Windows Menu to write a .ISO file into a CD or DVD
-Conclusion
+## Conclusion
 
 The steps described above will create a bootable GhostBSD system on a USB flash drive. To start a live session, connect the USB thumb drive to the computer and reboot the computer. Further information can be found here.
 
