@@ -107,13 +107,13 @@ If your computer starts up by loading your existing operating system, then eithe
     Your BIOS does not support booting from the desired media. 
 
 As GhostBSD begins to boot, you will see a black screen with similar text to this:
-![Boot Menu](/source/user/installation-guide/images/Boot-Menu.png)
+![alt text](/source/user/installation-guide/images/Boot-Menu.png "Boot Menu")
 
 ## Installing
 
 After you boot into the GhostBSD Live session, open a terminal window and start the installer with `gbi`. 
 ### Select Language
-![Language Menu](/source/user/installation-guide/images/Installer-Select-Language.PNG)
+![alt text](/source/user/installation-guide/images/Installer-Select-Language.PNG "Select Language")
 
 Select the language you would like to use after the installation. If a language is not provided in the selection, the language can be changed after login. 
 Note: GBI will be multilingual in the future and the language who are display is default language some of us speak. 
@@ -121,7 +121,7 @@ Note: GBI will be multilingual in the future and the language who are display is
 ### Keyboard Menu
  Selecting a keyboard layout and a variant
 The layout option is your country-specific keyboard layout. 
-![Keyboard Menu](/source/user/installation-guide/images/Installer-Select-Keyboard-Layout.PNG)
+![alt text](/source/user/installation-guide/images/Installer-Select-Keyboard-Layout.PNG "Keyboard Layout")
 Note: If you use the default GhostBSD system keyboard setup you can skip by just click on forward. Also if you don't know your keyboard model and variant don't select any of those. 
 ### Time Zone
 Setting the time zone for your machine will allow it to automatically correct for any regional time changes and perform other time zone related functions properly.
@@ -129,19 +129,19 @@ Setting the time zone for your machine will allow it to automatically correct fo
 Selecting a Time Zone
 
 Select a continent and the nearest city. 
-![Time Zone Menu](/source/user/installation-guide/images/Installer-Select-Timezone-Continent.PNG)
+![alt text](/source/user/installation-guide/images/Installer-Select-Timezone-Continent.PNG "Timezone Select")
 
 ### ZFS Full Disk Installation
-![Installation Type Menu](/source/user/installation-guide/images/Installer-Select-Installation-Type.png)
+![alt text](/source/user/installation-guide/images/Installer-Select-Installation-Type.png "Select Installation")
 Choose the disk where GhostBSD is to be installed. 
-![ZFS Full Disk Menu](/source/user/installation-guide/images/Installer-ZFS-Full-Disk-Configuration.PNG)
+![alt text](/source/user/installation-guide/images/Installer-ZFS-Full-Disk-Configuration.PNG "Install ZFS Full Disk")
 Select an available boot option. 
-![Boot Option Menu](/source/user/installation-guide/images/Boot-Option.png)
+![alt text](/source/user/installation-guide/images/Boot-Option.png "Boot Options")
 ### Adding Root Password and User
 GhostBSD is designed to let the user have total control of the system, meaning that the user has root access by default and owns the entire system. GhostBSD installer lets the user choose a root password and lets them have complete access to the root account.
 Setting Root Password
 Password: The system password, also known as the root, superuser, or administrative password, is required for system administration tasks such as installing software, setting up your printer or changing settings that affect all users. You will need to remember this password for the times that you are prompted for it. The password is recommended as at least 8 characters, and you are required to type it in twice to confirm the password. 
-![Root Password Menu](/source/user/installation-guide/images/Installer-Set-Root-Password.PNG)
+![alt text](/source/user/installation-guide/images/Installer-Set-Root-Password.PNG "Root Password")
 Adding User
 
 Username: this is the name you will use when logging in. It can not contain spaces and is case sensitive
@@ -156,7 +156,7 @@ Setting The System host name
 Hostname: input the system's hostname. This name will be the system name of the network.
 
 Figure 2.8b: Adding a user and hostname. 
-![Add User Menu](/source/user/installation-guide/images/Installer-User-Setup.PNG)
+![alt text](/source/user/installation-guide/images/Installer-User-Setup.PNG "User Setup")
 ## Installation progress
 Installation Progress
 Once you select Install to start the installation, a progress screen, seen in Figure 2.9b, provides a progress bar and messages so that you can watch the installation's progress. 
