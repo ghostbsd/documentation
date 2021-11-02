@@ -30,6 +30,10 @@ extensions = [
     'myst_parser'
 ]
 
+master_doc = 'index'
+
+source_suffix = [".md"]
+
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
 
