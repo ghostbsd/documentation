@@ -2,12 +2,12 @@
 ## Introduction
 GhostBSD comes with it's own graphical installer called **GBI**.
 
-After reading this chapter, you will learn about:
-* Creating a live GhostBSD USB memory stick.
-* Installing GhostBSD.
-* Starting GhostBSD.
-* A Walkthrough of GBI.
-* Troubleshooting tips for installation & live media.
+After reading this chapter, you will learn :
+* Creating a live GhostBSD USB memory stick
+* Installing GhostBSD
+* Starting GhostBSD
+* A Walkthrough of GBI
+* Troubleshooting tips for installation & live media
 
 ## Minimum Requirements
 #### Minimum System Requirements
@@ -35,7 +35,7 @@ After reading this chapter, you will learn about:
 ##### Supported Video Cards
 GhostBSD uses X.org drivers for graphics support. During installation, graphics support will be configured automatically. Support for the major graphic vendors is as follows:
 
-**NVIDIA**: if you want to use 3D acceleration, NVIDIA is currently the best supported as there is a native driver for GhostBSD.
+**NVIDIA**: 3D acceleration, NVIDIA is currently the best supported as there is a native driver for GhostBSD.
 
 **Intel**: 3D acceleration on most Intel graphics is supported. Due to the current KMS support, you will not be able to switch between the graphical console and a virtual console using Crtl+Alt+F#.
 
