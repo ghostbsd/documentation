@@ -1,7 +1,7 @@
 Installation Guide
 ==================
 
-# Introduction
+## Introduction
 
 GhostBSD comes with a Graphical installer call GBI.
 
