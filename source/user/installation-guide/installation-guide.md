@@ -5,10 +5,11 @@ Installation Guide
 
 GhostBSD comes with a Graphical installer call GBI.
 
-After reading this chapter, you will know:
+After reading this guide, you will know:
 
 * How to make a USB memory stick.
+* How to set up a Virtual Machine. 
 * How to install GhostBSD.
-* How to start GhostBSD.
-* The questions GBI will ask you, what they mean, and how to answer them.
+  * How to install GhostBSD using the entire disk drive. 
+  * How to install alongside other opereating system.
 * Troubleshooting the installer and live media.
