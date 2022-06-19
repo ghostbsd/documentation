@@ -113,7 +113,7 @@ If you install Sublime, also install its [Package Control](https://packagecontro
 sudo pkg install vscode
 ```
 
-There are many code editor available under GhostBSD, change are your favorite editors is available.
+There are many code editors available under GhostBSD, you can choose your favorite editor.
 
 ### Version control
 
