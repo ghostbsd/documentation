@@ -95,7 +95,7 @@ To write and edit code, you can use anything you want. Some people prefer lightw
 
 If you're not sure what to use, have a look around and try a few editors/IDE until you find your favorite one.
 
-Eric use [Sublime Text](https://www.sublimetext.com/).
+Eric uses [Sublime Text](https://www.sublimetext.com/).
 
 ```
 sudo pkg install linux-sublime3
@@ -113,7 +113,7 @@ If you install Sublime, also install its [Package Control](https://packagecontro
 sudo pkg install vscode
 ```
 
-There is many code editor available under GhostBSD, change are your favorite editors is available.
+There are many code editor available under GhostBSD, change are your favorite editors is available.
 
 ### Version control
 
