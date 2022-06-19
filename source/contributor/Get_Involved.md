@@ -5,8 +5,20 @@ Welcome to the GhostBSD Community! By getting involved, you will meet new friend
 
 We want to ensure that GhostBSD contributors remain a welcoming and friendly place where people can feel comfortable. Therefore, we ask you to abide by the [GhostBSD Code of Conduct](../CoC.md) when interacting with the rest of the GhostBSD Community.
 
-## Getting Started!
-Beyond is the starting point to find the area you want to contribute. Start at the top of this list and work your way down. We want to make it easy for people to get involved in various areas of GhostBSD. If you need help to get started, please ask any questions you may have on [Telegram](https://t.me/ghostbsd) or [Element](https://app.element.io/#/room/#ghostbsd:matrix.org)!
+## [Getting Started!](Getting_Started.md)
+This section covers requirements and technology used by GhostBSD. If you need help to get started, please ask any questions you may have on [Telegram](https://t.me/ghostbsd) or [Element](https://app.element.io/#/room/#ghostbsd:matrix.org)!
+
+[Find out more about how to get started.](Getting_Started.md)
+
+```{toctree}
+:caption: Contributor documentation
+:hidden:
+
+Getting_Started
+```
+
+## Ways to Contribute
+his section will help you to find the area you want to contribute. Start at the top of this list and work your way down. We want to make it easy for people to get involved in various areas of GhostBSD.
 
 ### Issue Reporting
 If you've found a problem or have an idea for an improvement, report it to the developers! QA is critically important to ensure quality, and you can be involved to make sure that our users are happy with the final products.
