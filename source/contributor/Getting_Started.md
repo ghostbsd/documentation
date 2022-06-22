@@ -1,12 +1,15 @@
-# Requirements
+<h1>Getting Started</h1>
 
-## Speaking English
+## Requirements
+
+### Speaking English
 
 Developers come from all around the World, if you speak English you'll be able to work with anybody.
 
 You're probably OK if you're here reading this guide. You don't need to be fluent or to have great English, but you need to understand English enough to communicate.
 
-## Knowing how to use Git
+[](#git)
+### Knowing how to use Git
 
 Git is the version control system we are using to keep track of changes. We are using it all the time and everywhere.
 
@@ -16,8 +19,7 @@ To learn Git, visit [GitHub Docs](https://docs.github.com/en/get-started/quickst
 
 Make sure you are familiar with the concepts of commits, branches, remotes, reverts and rebases.
 
-
-## Knowing how to use GitHub
+### Knowing how to use GitHub
 
 We are using GitHub to host our Git repositories and to work together on the code.
 
@@ -29,17 +31,17 @@ You will also need to know how to use GitHub to browse code changes, to fork a p
 
 To set up your GitHub account properly and learn how to use GitHub, visit the [GitHub Help](https://docs.github.com).
 
-## Running GhostBSD
+### Running GhostBSD
 
 For most projects, you will need a computer running the latest version of GhostBSD.
 
 You can run an earlier version, or FreeBSD, but if you run the latest GhostBSD build you are guaranteed everything will work.
 
-# Set Up
+## Set Up
 
 Below explains how to get your computer set up.
 
-## Create a project Sandbox
+### Create a project Sandbox
 
 It is a good idea to create a directory for all your development needs, in which you will have sub-directories for each project, or each group of projects. This keeps things tidy and well organized in your computer so it becomes easier to search for code across different projects.
 
@@ -51,11 +53,11 @@ mkdir ~/projects/ghostbsd
 
 Of course, you can call it whatever you want and place it anywhere you want as well.
 
-# Technologies
+## Technologies
 
 Below is an overview of the technologies we are using.
 
-## Computer Languages
+### Computer Languages
 
 We use a variety of computer languages in GhostBSD.
 
@@ -63,23 +65,23 @@ You don't need to know them all and you don't need to know them well. It really 
 
 Here are the languages we use the most.
 
-### Python
+#### Python
 
 Most software applications and most configuration tools are also written in Python.
 
 The advantage of Python is that it is easy to learn and fast to develop with.
 
-### C
+#### C
 
 Many software applications and most libraries are written in C.
 
 The C language is low-level, hard to master and tedious to develop with, but it gives fast performance and it is the most supported language in FreeBSD almost everything is accessible from C.
 
-### Bourne shell script
+#### Bourne shell script
 
 Most scripts in the FreeBSD are using [Bourne shell(sh)](https://en.wikipedia.org/wiki/Bourne_shell) scrip. Some GhostBSD tools like ghostbsd-build and xconfig are written in Bourne shell.
 
-## GNOME Toolkit and libraries
+### GNOME Toolkit and libraries
 
 All our user interfaces use [GTK3](https://docs.gtk.org/gtk3/) toolkit.
 
@@ -87,9 +89,9 @@ Our development relies heavily on the GNOME libraries, in particular we use GLib
 
 We are mostly using Python and we access them via [GObject Introspection](https://gi.readthedocs.io).
 
-## Tools
+### Tools
 
-### Development environment
+#### Development environment
 
 To write and edit code, you can use anything you want. Some people prefer lightweight editors while others prefer full-fledged IDEs. It is a matter of taste. Development is all about fun, so what matters the most is that you love the tools you use.
 
@@ -115,7 +117,7 @@ sudo pkg install vscode
 
 There are many code editors available under GhostBSD, you can choose your favorite editor.
 
-### Version control
+#### Version control
 
 When it comes to version control we are using git and nothing else. All our code is version-controlled with it.
 
@@ -149,7 +151,7 @@ If you are looking for a more complete solution, have a look at [Sublime Merge](
 
 You can also check the plugins and features available in your IDE/editor. Visual Studio Code, and Sublime Text in particular come with a lot of support for Git and GitHub.
 
-### devhelp
+#### devhelp
 
 Devhelp shows the reference manuals for the development libraries installed on your computer. For most libraries, the documentation is included in their -dev or -doc package (for instance, if you are working with GTK3, make sure to install libgtk-3-dev and libgtk-3-doc).
 ```
@@ -157,7 +159,7 @@ pkg install devhelp
 ```
 You can launch DevHelp from the applications menu and use it to browse or search the libraries reference manuals. You will often need to check the syntax or the arguments of a particular function. It is nice to be able to get the information locally without having to search online.
 
-### d-feet
+#### d-feet
 
 Some programs use DBus to communicate with others. We use d-feet to browse and troubleshoot DBus.
 ```
@@ -165,14 +167,14 @@ pkg install d-feet
 ```
 With d-feet you can quickly find a service on DBus, browse its interface and even call some of its functions manually.
 
-### meld
+#### meld
 
 Meld is a visual diff tool. It shows the differences between two files and it is great at it.
 ```
 pkg install meld
 ```
 
-### Other cool tools
+#### Other cool tools
 
 Most of our configuration is stored in dconf and we use gsettings (from the command line) to look at it or modify it. If you want to do it graphically, you can install dconf-editor.
 

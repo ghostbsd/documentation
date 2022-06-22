@@ -27,17 +27,8 @@ user/feedback
 
 ```{toctree}
 :caption: Contributor documentation
+:maxdepth: 4
 :hidden:
 
 contributor/Get_Involved
-```
-
-```{toctree}
-:caption: Developer Guide
-:hidden:
-:maxdepth: 2
-:glob:
-
-developer/contributing
-developer/acknowledgements
 ```
