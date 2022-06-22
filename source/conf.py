@@ -30,6 +30,8 @@ extensions = [
     'myst_parser'
 ]
 
+myst_heading_anchors = 3
+
 master_doc = 'index'
 
 source_suffix = [".md"]
