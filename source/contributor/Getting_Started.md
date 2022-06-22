@@ -1,4 +1,4 @@
-<h2>Getting Started</h2>
+<h1>Getting Started</h1>
 
 ## Requirements
 

@@ -1,4 +1,4 @@
-<h2>Documentation</h2>
+<h1>Documentation</h1>
 
 Writing documentation is a great way to start improving GhostBSD user experience and you will be helping a lot of GhostBSD users to better understand their desktop and applications. Anyone with reasonable English skills and good knowledge of FreeBSD, GhostBSD or MATE can help.
 
