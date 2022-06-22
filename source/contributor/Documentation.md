@@ -15,14 +15,14 @@ Those 3 ways of communicating are connected together.
 
 In order to document GhostBSD projects, you will want to run a [recent GhostBSD build](https://www.ghostbsd.org/download#latest_builds), and to document third-party projects, you will also need a recent version of that program. We are use [Sphinx](https://www.sphinx-doc.org) with [MyST](https://myst-parser.readthedocs.io) to makes it easy to create our Documentation Hub. Any one that wants to help should start to be familiar with [Git](Getting_Started.md#knowing-how-to-use-git), [GitHub](Getting_Started.md#knowing-how-to-use-github) and [markdown syntax](https://www.markdownguide.org/basic-syntax/).
 
-The instruction to install and setup found at on [GhostBSD Documentation GitHub](https://github.com/ghostbsd/documentation#local-development-server) repository.
+The instructions for install and setup can be found on the  [GhostBSD Documentation GitHub](https://github.com/ghostbsd/documentation#local-development-server) repository.
 
 ## Tasks
 
 You can get your first contribution committed today! Here are some tasks for the beginner:
-* Read the documentation if there is grammar issue fix it
-* Improve the sentences and paragraph
+* Read the documentation if there is a grammar issue, fix it
+* Improve the sentences and paragraphs
 * Update ScreenShots and Documentation
-* Create issue on our [GitHub Documentation Issues](https://github.com/ghostbsd/documentation/issues/new).
+* Create issues on our  [GitHub Documentation Issues](https://github.com/ghostbsd/documentation/issues/new).
 
-There is also task and issues that can be found [Documentation Management](https://github.com/orgs/ghostbsd/projects/5) on GitHub
+There are also tasks and issues that can be found at our [Documentation Management](https://github.com/orgs/ghostbsd/projects/5) on GitHub.
