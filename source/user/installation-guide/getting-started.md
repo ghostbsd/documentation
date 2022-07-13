@@ -125,6 +125,13 @@ Then add these two `qemu-system-x86_64` options:
 
 To set resolution, press F2 at boot to access OVMF settings. Select 'Device Manager > OVMF Platform Configuration > Change Preferred', save and reboot.
 
+#### VirtualBox
+
+Install VirtualBox using your package manager or from [here](https://virtualbox.org).
+
+In the tools tab of the VirtualBox Manager, click on ```New```. Enter a name for your VM, set ```Type``` to FreeBSD, and set ```Version``` to FreeBSD (64-bit).
+
+
 ## Downloading
 
 The **GhostBSD** ISO image is available for download [here](http://ghostbsd.org/download).
