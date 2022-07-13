@@ -13,3 +13,10 @@ After reading this guide, you will know:
   * How to install GhostBSD using the entire disk drive. 
   * How to install alongside other opereating system.
 * Troubleshooting the installer and live media.
+
+```{toctree}
+:caption: Installation Guide
+:hidden:
+
+getting-started
+```
