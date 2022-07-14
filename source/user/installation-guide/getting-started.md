@@ -127,10 +127,37 @@ To set resolution, press F2 at boot to access OVMF settings. Select 'Device Mana
 
 #### VirtualBox
 
-Install VirtualBox using your package manager or from [here](https://virtualbox.org).
+Install VirtualBox using your package manager or from the [website](https://virtualbox.org). Then, launch the VirtualBox Manager and select Tools > New to create a virtual machine with the following settings.
 
-In the tools tab of the VirtualBox Manager, click on ```New```. Enter a name for your VM, set ```Type``` to FreeBSD, and set ```Version``` to FreeBSD (64-bit).
+* Name and operating system
+    * Enter a **Name** for the virtual machine
+    * Set **Type** to "FreeBSD"
+    * Set **Version** to "FreeBSD (64-bit)"
+* Memory size
+    * Increase the **RAM** to at least 4GB (4096MB)
+* Hard disk
+    * Default settings are recommended.
+* Hard disk file type
+    * Default settings are recommended.
+* Storage on physical hard disk
+    * Default settings are recommended.
+* File location and size
+    * Default settings are okay but it may be desirable to increase the maximum size of the virtual storage.
 
+After completing the above steps, the virtual machine will be created. In the VirtualBox Manager, select the new virtual machine and open the Settings screen. Edit the settings described below.
+
+* System > Motherboard
+    * Under **Extended Features** select "Enable EFI (special OSes only)
+* System > Processor
+    * Set **Prosessor(s)** to at least 2 CPUs
+* Display > Screen
+    * Change **Graphics Controller** to VBoxSVGA
+* Storage
+    * Under **Storage Devices** select the Optical Drive (CD icon)
+    * Under **Attributes** click the CD icon to open a drop down menu.
+    * Select "Choose a disk file..." and locate the downloaded GhostBSD iso file.
+
+Click "OK" to save the changes. Finally, in the VirtualBox Manager, select Start. The GhostBSD live system will boot into the Mate desktop environment. Click "Install GhostBSD" to start the installer. After installation, either reboot or shutdown the virtual machine and remove the ISO from the optical drive before the next boot.
 
 ## Downloading
 
