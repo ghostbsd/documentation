@@ -33,7 +33,13 @@ Not all networking devices may be supported by GhostBSD yet. In those cases, you
 * [USB 802.11n WLAN Adapters based on `ID 0bda:8176 Realtek Semiconductor Corp. RTL8188CUS`](https://vermaden.wordpress.com/2020/10/30/realtek-usb-wifi-review/)
 * [USB Wired Ethernet Adapters based on `ID 0b95:772b ASIX Electronics Corp. AX88772B`](https://www.freebsd.org/cgi/man.cgi?query=axe)
 
-### Virtualization environments
+## Getting an ISO
+
+The **GhostBSD** ISO image is available for download [here](http://ghostbsd.org/download).
+
+Experimental development images are available for download [here](https://download.ghostbsd.org/development/amd64/latest/).
+
+## Virtualization environments
 
 ``` .. note::
     We recommend running GhostBSD on real hardware ("bare metal") if possible. This should give you the best possible performance and hardware support.
@@ -61,7 +67,7 @@ Please note:
 
 Please report back about the results on your virtualization environment.
 
-#### QEMU
+### QEMU
 
 Create an 8 GiB (or larger) `ghostbsd.img` image file on which you can install the system:
 
@@ -104,14 +110,14 @@ Then add these two `qemu-system-x86_64` options:
 -smbios type=0,vendor=0vendor,version=0version,date=0date,release=0.0,uefi=on \
 ```
 
-#### Parallels
+### Parallels
 
 * Select Hardware > Boot Order.
 * Expand **Advanced Settings**. Set **BIOS** to "EFI 64-bit" and in the Boot flags field, enter `vm.bios.efi=1`. 
 
 ![Screenshot](https://docs.01.org/clearlinux/latest/zh_CN/_images/parallels-07.png)
 
-#### Proxmox VE
+### Proxmox VE
 
 * Memory: 4GB (not ballooned)
 * Processors: 2 (1 socket 2 cores)
@@ -125,7 +131,7 @@ Then add these two `qemu-system-x86_64` options:
 
 To set resolution, press F2 at boot to access OVMF settings. Select 'Device Manager > OVMF Platform Configuration > Change Preferred', save and reboot.
 
-#### VirtualBox
+### VirtualBox
 
 Install VirtualBox using your package manager or from the [website](https://virtualbox.org). Then, launch the VirtualBox Manager and select Tools > New to create a virtual machine with the following settings.
 
@@ -158,9 +164,3 @@ After completing the above steps, the virtual machine will be created. In the Vi
     * Select "Choose a disk file..." and locate the downloaded GhostBSD iso file.
 
 Click "OK" to save the changes. Finally, in the VirtualBox Manager, select Start. The GhostBSD live system will boot into the Mate desktop environment. Click "Install GhostBSD" to start the installer. After installation, either reboot or shutdown the virtual machine and remove the ISO from the optical drive before the next boot.
-
-## Downloading
-
-The **GhostBSD** ISO image is available for download [here](http://ghostbsd.org/download).
-
-Experimental development images are available for download [here](https://download.ghostbsd.org/development/amd64/latest/).
