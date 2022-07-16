@@ -21,18 +21,30 @@ In general, BSD is also considered beyond the average computer user's knowledge.
 
 
 ```{toctree}
-:caption: User Guide
+:caption: User Documentation
 :hidden:
 
 user/installation-guide/installation-guide
 user/FAQ
+GhostBSD Wiki <https://wiki.ghostbsd.org/>
 ```
 
 
 ```{toctree}
-:caption: Contributor documentation
+:caption: Contributor Documentation
 :maxdepth: 4
 :hidden:
 
 contributor/get-involved
+```
+
+
+```{toctree}
+:caption: Downstream Documentation
+:maxdepth: 4
+:hidden:
+MATE Documentation <https://wiki.mate-desktop.org/>
+FreeBSD Documentation <https://docs.freebsd.org/>
+FreeBSD Handbook <https://docs.freebsd.org/en/books/handbook/>
+FreeBSD Wiki <https://wiki.freebsd.org/>
 ```
