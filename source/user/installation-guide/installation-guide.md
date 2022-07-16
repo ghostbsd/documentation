@@ -19,4 +19,5 @@ After reading this guide, you will know:
 :hidden:
 
 getting-started
+full-disk-installation
 ```
