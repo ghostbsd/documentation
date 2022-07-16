@@ -13,7 +13,7 @@ Those 3 ways of communicating are connected together.
 
 ## Getting the resources
 
-In order to document GhostBSD projects, you will want to run a [recent GhostBSD build](https://www.ghostbsd.org/download#latest_builds), and to document third-party projects, you will also need a recent version of that program. We are use [Sphinx](https://www.sphinx-doc.org) with [MyST](https://myst-parser.readthedocs.io) to makes it easy to create our Documentation Hub. Any one that wants to help should start to be familiar with [Git](Getting_Started.md#knowing-how-to-use-git), [GitHub](Getting_Started.md#knowing-how-to-use-github) and [markdown syntax](https://www.markdownguide.org/basic-syntax/).
+In order to document GhostBSD projects, you will want to run a [recent GhostBSD build](https://www.ghostbsd.org/download#latest_builds), and to document third-party projects, you will also need a recent version of that program. We are use [Sphinx](https://www.sphinx-doc.org) with [MyST](https://myst-parser.readthedocs.io) to makes it easy to create our Documentation Hub. Any one that wants to help should start to be familiar with [Git](getting-started.md#knowing-how-to-use-git), [GitHub](getting-started.md#knowing-how-to-use-github) and [markdown syntax](https://www.markdownguide.org/basic-syntax/).
 
 The instructions for install and setup can be found on the  [GhostBSD Documentation GitHub](https://github.com/ghostbsd/documentation#local-development-server) repository.
 

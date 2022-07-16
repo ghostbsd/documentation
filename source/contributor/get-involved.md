@@ -5,17 +5,17 @@ Welcome to the GhostBSD Community! By getting involved, you will meet new friend
 
 We want to ensure that GhostBSD contributors remain a welcoming and friendly place where people can feel comfortable. Therefore, we ask you to abide by the [GhostBSD Code of Conduct](../CoC.md) when interacting with the rest of the GhostBSD Community.
 
-## [Getting Started](Getting_Started.md)
+## [Getting Started](getting-started.md)
 
 This section covers requirements and technology used by GhostBSD. If you need help to get started, please ask any questions you may have on [Telegram](https://t.me/ghostbsd) or [Element](https://app.element.io/#/room/#ghostbsd:matrix.org)!
 
-[Find out more about how to get started.](Getting_Started.md)
+[Find out more about how to get started.](getting-started.md)
 
 ```{toctree}
 :caption: Contributor documentation
 :hidden:
 
-Getting_Started
+getting-started
 ```
 
 ## Ways to Contribute
@@ -30,17 +30,27 @@ If you'd like to take the next step in contributing to GhostBSD, help triage all
 ### Development
 If you'd like to contribute code for the GhostBSD project, there are many small tasks available, so you don't even need to be a programmer to start developing GhostBSD! In the process, you'll learn valuable new skills like C, Python, GTK, Shell Scripting, Creating and maintaining FreeBSD ports, and so on.
 
-### [Documentation](Documentation.md)
+### [Documentation](documentation.md)
 Even with the best-designed software, users will need documentation to help them do what they want and get the most out of it.  Good-quality documentation is essential and has one of the most significant impacts on end-users.
 
-[Find out more about helping with the GhostBSD documentation.](Documentation.md)
+[Find out more about helping with the GhostBSD documentation.](documentation.md)
 
 ```{toctree}
 :caption: Contributor documentation
 :hidden:
 
-Documentation
+documentation
 ```
 
-### User Support
+### [Users Support](users-support.md)
 Sometimes users will run into trouble, have questions, and not find help or answers on their own. They will need someone to provide guidance and help. The GhostBSD Community provides several platforms for users to ask for support from other users, so other users must be ready to give that support.
+
+
+[Find out more about providing user support.](users-support.md)
+
+```{toctree}
+:caption: Contributor documentation
+:hidden:
+
+users-support
+```

@@ -29,5 +29,5 @@ user/feedback
 :maxdepth: 4
 :hidden:
 
-contributor/Get_Involved
+contributor/get-involved
 ```
