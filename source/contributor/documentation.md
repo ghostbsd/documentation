@@ -1,4 +1,4 @@
-<h1>Documentation</h1>
+<h1>Documentation Contribution</h1>
 
 Writing documentation is a great way to start improving GhostBSD user experience and you will be helping a lot of GhostBSD users to better understand their desktop and applications. Anyone with reasonable English skills and good knowledge of FreeBSD, GhostBSD or MATE can help.
 
@@ -9,11 +9,11 @@ There are many ways to get in touch with the team:
 * [#ghostbsd-dev:libera.chat](https://app.element.io/#/room/#ghostbsd-dev:libera.chat) channel on Matrix
 * #ghostbsd-dev on the Libera Chat IRC.
 
-Those 3 ways of communicating are connected together.
+Those three messaging platform are connected together. So whatever you use IRC, Telegram or Matrix you will be connected to all the messaging platform.
 
 ## Getting the resources
 
-In order to document GhostBSD projects, you will want to run a [recent GhostBSD build](https://www.ghostbsd.org/download#latest_builds), and to document third-party projects, you will also need a recent version of that program. We are use [Sphinx](https://www.sphinx-doc.org) with [MyST](https://myst-parser.readthedocs.io) to makes it easy to create our Documentation Hub. Any one that wants to help should start to be familiar with [Git](Getting_Started.md#knowing-how-to-use-git), [GitHub](Getting_Started.md#knowing-how-to-use-github) and [markdown syntax](https://www.markdownguide.org/basic-syntax/).
+In order to document GhostBSD projects, you will want to run a [recent GhostBSD build](https://www.ghostbsd.org/download#latest_builds), and to document third-party projects, you will also need a recent version of that program. We are use [Sphinx](https://www.sphinx-doc.org) with [MyST](https://myst-parser.readthedocs.io) to makes it easy to create our Documentation Hub. Any one that wants to help should start to be familiar with [Git](getting-started.md#knowing-how-to-use-git), [GitHub](getting-started.md#knowing-how-to-use-github) and [markdown syntax](https://www.markdownguide.org/basic-syntax/).
 
 The instructions for install and setup can be found on the  [GhostBSD Documentation GitHub](https://github.com/ghostbsd/documentation#local-development-server) repository.
 
@@ -26,3 +26,5 @@ You can get your first contribution committed today! Here are some tasks for the
 * Create issues on our  [GitHub Documentation Issues](https://github.com/ghostbsd/documentation/issues/new).
 
 There are also tasks and issues that can be found at our [Documentation Management](https://github.com/orgs/ghostbsd/projects/5) on GitHub.
+
+If you see any article from the [Wiki](https://wiki.ghostbsd.org/) that could be ported communicate the effort with the others in the GhostBSD dev chat.
