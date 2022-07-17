@@ -18,7 +18,7 @@ If the computer boots into an existing OS, it may mean:
 * The proper key was not pressed, or pressed at the correct time, during the boot process.
 * There was an error while creating the live flash drive.
 
-As GhostBSD boots, the loader menu will appear and will look similar to one of the images below, depending if the system is booted in UEFI or BIOS mode.
+As GhostBSD boots, the loader menu will appear and will look similar to one of the images below depending if the system is booted in UEFI or BIOS mode.
 
 ![Loader menu for GhostBSD booted in UEFI mode.](images/0-boot-uefi.png)
 
@@ -36,7 +36,7 @@ It is possible to use this live system to test hardware compatibility or to beco
 
 ### Starting the installer
 
-Double click the "Install GhostBSD" desktop icon to start the installer. A new window will appear with the following screens to setup and install a GhostBSD system. To save changes and proceed through the installation, click "Next". You make click "Previous" to return to the previous screen and make additional changes. Click "Cancel" or the red circle (top right corner) to exit the installer.
+Double click the "Install GhostBSD" desktop icon to start the installer. A new window will appear with the following screens to setup and install a GhostBSD system. To save changes and proceed through the installation, click "Next". You may click "Previous" to return to the previous screen and make additional changes. Click "Cancel" or the red circle (top right corner) to exit the installer.
 
 ### Localization
 
@@ -50,7 +50,7 @@ Select the language you would like to use for your installed system. If you need
 
 #### Keyboard
 
-You may select a keyboard layout specific to you language or region. It is also possible to specify the model of keyboard. If you do not know the model of your keyboard, or it is not listed, you should simply click "Next" without making a selection.
+You may select a keyboard layout specific to your language or region. It is also possible to specify the model of keyboard. If you do not know the model of your keyboard, or it is not listed, you should simply click "Next" without making a selection.
 
 ![Keyboard selection in GhostBSD installer.](images/3-localization-keyboard.png)
 
@@ -70,7 +70,7 @@ Select *Full disk configuration* to install GhostBSD with the default ZFS config
 
 #### Installation disk
 
-Select the disk where GhostBSD should be installed by clicking the corresponding checkbox. There are additional ZFS options that may be changed at this point in the installation. However, the default values are generally appropriate for most users and systems.
+Select the disk where GhostBSD should be installed by clicking the corresponding checkbox. There are additional ZFS options that may be changed from this screen. However, the default values are generally appropriate for most users and systems.
 
 ![Installation location selection in GhostBSD installer.](images/6-install-location.png)
 
@@ -78,7 +78,7 @@ Select the disk where GhostBSD should be installed by clicking the corresponding
 
 ### Boot loader
 
-By default, GhostBSD uses the native FreeBSD boot loader. If you plan to use multiple operating systems from a single machine, it may be convenient to choose rEFInd rather than the default. rEFInd can detect other operating systems and chainload their respective, native boot loaders. This can prevent the need to override the boot device as described in [Booting from the GhostBSD flash drive](#booting-from-the-ghostbsd-flash-drive).
+By default, GhostBSD uses the native FreeBSD boot loader. If you plan to use multiple operating systems from a single machine, it may be convenient to choose rEFInd rather than the default. rEFInd can detect other operating systems and chainload their respective, native boot loaders. This can remove the need to override the boot device as described previously in [Booting from the GhostBSD flash drive](#booting-from-the-ghostbsd-flash-drive).
 
 ![Boot loader selection in GhostBSD installer.](images/7-loader-uefi.png)
 
@@ -86,13 +86,13 @@ By default, GhostBSD uses the native FreeBSD boot loader. If you plan to use mul
 
 ### Root password
 
-Unix-like operating systems have an administrative user called root. Root has the ability to make any change to the system or users. Therefore, it is necessary to create a strong password for root.
+Unix-like operating systems have an administrative user called root. Root has the ability to make any change to the system or users. Therefore, it is necessary to create a strong password for root. Any password can be used but the installer will suggest if it is weak or strong.
 
 ![Root password creation in GhostBSD installer.](images/8-accounts-root.png)
 
 ### Adding a user
 
-Create your user by entering a *Real name*, *User name*, and *Password*. The *Hostname* is the name of your computer that is displayed on any networks. It will be automatically created but can be changed if desired. The *Shell* is what you interact with when using the terminal (command line). The default is fish, however, several others are included.
+Create your user by entering a *Real name*, *User name*, and *Password*. The installer will again suggest whether the password is weak or strong. The *Hostname* is the name of your computer that is displayed on any networks. It will be automatically created but can be changed if desired. The *Shell* is what you interact with when using the terminal (command line). GhostBSD aims provides a user-friendly GUI experience and it is not often required to use the terminal. The default shell is fish, however, several others are included.
 
 ![User creation in GhostBSD installer.](images/9-accounts-user.png)
 
@@ -106,6 +106,10 @@ After a user is created, click "Install" to complete the installation. A progres
 
 #### Reboot into new installation
 
-If the installation is successful, the below screen will be displayed. Click "Continue" to remain in the live system or click "Restart" to reboot into the newly installed GhostBSD system. Be sure remove the flash drive before the computer restarts. Some machines may automatically boot from an attached live flash drive.
+If the installation is successful, the below screen will be displayed. Click "Continue" to remain in the live system or click "Restart" to reboot into the newly installed GhostBSD system. Be sure remove the flash drive after the computer shuts down but before it restarts. Some machines may automatically boot from an attached live flash drive.
 
 ![Finish and restart screen in GhostBSD installer.](images/11-complete.png)
+
+## Troubleshooting the installation
+
+*Please note*: This section is incomplete and is currently being updated.
