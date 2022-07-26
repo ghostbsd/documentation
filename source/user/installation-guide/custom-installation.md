@@ -3,11 +3,11 @@ Custom Installation
 
 A custom installation and full disk installation of GhostBSD begin the same way. Please follow the [Full disk installation](full-disk-installation.md) guide until the *Disks and filesystem* section. When that section is reached, follow this guide to complete the custom installation.
 
-The purpose of this guide is not to provide the steps for every possible configuration, but to provide a resource to get started with custom partitioning and filesystem layouts. Continue reading if you would like a more in-depth description of the installation process. Skip to [Installing GhostBSD](#installing-ghostbsd) if you just want the steps needed for a custom installation with the recommended setup using GPT and ZFS.
+The purpose of this guide is not to provide the steps for every possible configuration, but to provide a resource to get started with custom partitioning and filesystem layouts. Continue reading if you would like a more in-depth description of the installation process. Skip to [Installing GhostBSD](#installing-ghostbsd) if you just want the steps needed for a custom installation with the recommended setup using UEFI, GPT and ZFS.
 
 ## Partitioning schemes
 
-There are two partitioning schemes available in GhostBSD that are used to divide a disk into sections called slices or partitions. There is the older Master Boot Record (MBR) layout and the newer GUID Partition Table (GPT) layout. If you would like to learn about the other partitioning schemes not in GhostBSD, click [here](https://en.wikipedia.org/wiki/Disk_partitioning#Boot_partitions). It is recommended that GhostBSD be installed using GPT except where compatibility requirements dictate otherwise.
+There are two partitioning schemes available in GhostBSD that are used to divide a disk into sections called slices or partitions. There is the older Master Boot Record (MBR) layout and the newer GUID Partition Table (GPT) layout. If you would like to learn about MBR, GPT, or other partitioning schemes, click [here](https://en.wikipedia.org/wiki/Disk_partitioning#Boot_partitions). It is recommended that GhostBSD be installed using GPT except where compatibility requirements dictate otherwise.
 
 ### MBR
 
@@ -37,7 +37,9 @@ Select *Custom (Advanced partitioning)* to and click "Next" to start the Partiti
 
 ### Partition Scheme
 
-**Please note**: It's possible that the disk will already have a partitioning scheme. If it does, when you first start the Partition Editor you will already see GPT or MBR under the "System/Type" field on the right. You can skip this step and proceed to the *File system* section below.
+:::{important}
+It's possible that the disk will already have a partitioning scheme. If it does, when you first start the Partition Editor you will already see GPT or MBR under the "System/Type" field on the right. You can skip this step and proceed to the *File system* section below.
+:::
 
 In the Partition Editor you will see the disks that are available.
 
@@ -65,7 +67,9 @@ The first partition to create is the boot partition. Select the freespace under 
 
 Next create the ZFS root partition. Again, select the freespace and click "Create". In the "Add a Partition" dialog, select "ZFS" and enter the desired size of the partition. Click "+ Add" to create teh ZFS root partition. The installer will automatically assign the correct mount points for the partition.
 
-**Please note**: It is necessary to account for the size of the swap partition (if using one) and a small buffer at the end of the disk. The default installation allocates about 5MB for the buffer.
+:::{important}
+It is necessary to account for the size of the swap partition (if using one) and a small buffer at the end of the disk. The default installation allocates about 5MB for the buffer.
+:::
 
 ![Create the ZFS root partition.](images/custom-installation/6-zfs-partition.png)
 
