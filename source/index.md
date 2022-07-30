@@ -48,3 +48,13 @@ FreeBSD Documentation <https://docs.freebsd.org/>
 FreeBSD Handbook <https://docs.freebsd.org/en/books/handbook/>
 FreeBSD Wiki <https://wiki.freebsd.org/>
 ```
+
+
+```{toctree}
+:caption: Legal Documentation
+:maxdepth: 4
+:hidden:
+
+legal/license
+legal/trademark
+```
