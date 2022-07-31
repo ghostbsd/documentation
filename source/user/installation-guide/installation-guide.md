@@ -20,4 +20,5 @@ After reading this guide, you will know:
 
 getting-started
 full-disk-installation
+custom-installation
 ```
