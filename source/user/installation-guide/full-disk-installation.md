@@ -93,13 +93,7 @@ Unix-like operating systems have an administrative user called root. Root has th
 ### Adding a user
 
 Create your user by entering a *Real name*, *User name*, and *Password*. The installer will again suggest whether the password is weak or strong. The *Hostname* is the name of your computer that is displayed on any networks. It will be automatically created but can be changed if desired. The *Shell* is what you interact with when using the terminal (command line). GhostBSD aims provides a user-friendly GUI experience and it is not often required to use the terminal. The default shell is fish, however, several others are included.
-
-![User creation in GhostBSD installer.](images/full-disk-installation/9-accounts-user.png)
-
-### Finish and reboot
-
-#### Progress screen
-
+![User creation in GhostBSD installer.](images/full-disk-installation/9-accounts-user.png) ### Finish and reboot #### Progress screen
 After a user is created, click "Install" to complete the installation. A progress screen will appear that shows the actions being performed and other messages.
 
 ![Progress screen in GhostBSD installer.](images/full-disk-installation/10-progress.png)
@@ -109,7 +103,3 @@ After a user is created, click "Install" to complete the installation. A progres
 If the installation is successful, the below screen will be displayed. Click "Continue" to remain in the live system or click "Restart" to reboot into the newly installed GhostBSD system. Be sure remove the flash drive after the computer shuts down but before it restarts. Some machines may automatically boot from an attached live flash drive.
 
 ![Finish and restart screen in GhostBSD installer.](images/full-disk-installation/11-complete.png)
-
-## Troubleshooting the installation
-
-*Please note*: This section is incomplete and is currently being updated.
