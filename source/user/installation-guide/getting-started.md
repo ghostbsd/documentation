@@ -64,7 +64,7 @@ dd if=/path/to/GhostBSD-YY.MM.DD.iso of=/dev/diskX bs=3m
 ```
 
 **On Windows**
-* Download and run the imaging tool, Rufus, from the [webiste](https://rufus.ie/en/).
+* Download and run the imaging tool, Rufus, from the [website](https://rufus.ie/en/).
 * Insert the USB flash drive.
 * Make sure the flash drive is shown in Rufus under **Device**.
 * Click "SELECT" and choose the GhostBSD ISO file.
