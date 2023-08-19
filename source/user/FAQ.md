@@ -36,7 +36,7 @@ For most users, yes.
 
 Most people do not use an operating system. Instead, they use applications that make a computer useful. GhostBSD is designed to provide a desktop and full-featured environment for applications. It supports various web browsers, office suites, email readers, graphics programs, programming environments, network servers, and everything else you might want. Most of these applications can be built using the FreeBSD Ports Collection.
 
-Suppose you need to use an application only available on an operating system will be hard to replace that operating system (this situation is called vendor lock-in). However, the chances are that there is a very similar application on GhostBSD.
+If you need to use an application only available on a specific operating system, it may be hard to replace that operating system (this situation is called vendor lock-in). However, chances are that there is a very similar alternative application on GhostBSD.
 
 If you migrate to GhostBSD from some other UNIX®-like environment, you already know most of what you need to know. However, if your background is in graphic-driven operating systems such as Microsoft Windows® and older versions of MacOS®, expect to invest additional time learning the UNIX way of doing things.
 
