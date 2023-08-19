@@ -9,7 +9,7 @@ Every effort has been made to make this FAQ as informative as possible; if you h
 
 ### What is GhostBSD?
 
-Briefly, GhostBSD is a UNIX®-like operating system. It works on AMD64 and Intel® platforms. GhostBSD is based on FreeBSD, which is based on U.C. Berkeley’s “4.4BSD-Lite” release, with some “4.4BSD-Lite2” enhancements. It is also based indirectly on William Jolitz’s port of U.C. Berkeley’s “Net/2” to the i386, known as “386BSD”, though very little of the 386BSD code remains. Currently, GhostBSD provides MATE desktop as the default version and a community release with XFCE desktop.
+Briefly, GhostBSD is a UNIX®-like operating system. It works on AMD64 and Intel® platforms. GhostBSD is based on FreeBSD, which is based on U.C. Berkeley’s “4.4BSD-Lite” release, with some “4.4BSD-Lite2” enhancements. It is also based indirectly on Lynne and William Jolitz's port of U.C. Berkeley’s “Net/2” to the i386, known as “386BSD”, though very little of the 386BSD code remains. Currently, GhostBSD provides MATE desktop as the default version and a community release with XFCE desktop.
 
 ### Why is it called GhostBSD?
 
@@ -73,4 +73,4 @@ However, you do not have to set up Linux Binary Compatibility on your GhostBSD s
 
 ### How should I update GhostBSD to the latest updates?
 
-To upgrade GhostBSD, you can just use the Update Station. It was made to upgrade GhostBSD properly. If you want the pkg command line, please follow this article. If you do not use pkg properly to upgrade GhostBSD, you will most likely get your system broken.
+To upgrade GhostBSD, use the Update Station. It was made to upgrade GhostBSD properly. If you want the pkg command line, please follow this article. If you do not use pkg properly to upgrade GhostBSD, you will most likely get your system broken.
