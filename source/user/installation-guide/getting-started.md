@@ -16,7 +16,7 @@ GhostBSD is available for general use.
 
 In the future, there may also be builds for other processor architectures. We would like to bring down the RAM requirement considerably.
 
-Please refer to [FreeBSD Hardware Compatibility](https://www.freebsd.org/doc/en_US.ISO8859-1/books/faq/hardware.html) for more information on individual components.
+Please refer to [FreeBSD Hardware Compatibility](https://docs.freebsd.org/en/books/faq/#hardware) for more information on individual components.
 
 ### Tested hardware
 
@@ -35,7 +35,7 @@ Not all networking devices may be supported by GhostBSD yet. In those cases, you
 
 ## Getting an ISO
 
-The **GhostBSD** ISO image is available for download [here](http://ghostbsd.org/download).
+The **GhostBSD** ISO image is available for download [here](https://www.ghostbsd.org/download).
 
 Experimental development images are available for download [here](https://download.ghostbsd.org/development/amd64/latest/).
 
