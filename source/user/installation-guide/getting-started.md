@@ -28,7 +28,7 @@ To see Hardware Probes of systems running GhostBSD, please see the [GhostBSD Har
 
 ### Networking hardware
 
-Not all networking devices may be supported by GhostBSD yet. In those cases, you may want to consider using a USB based networking devices. GhostBSD developers currently have access to the following USB-based networking devices, which are known to work:
+Not all networking devices may be supported by GhostBSD yet. In those cases, you may want to consider using a USB-based networking device. GhostBSD developers currently have access to the following USB-based networking devices, which are known to work:
 
 * [USB 802.11n WLAN adapters based on `ID 0bda:8176 Realtek Semiconductor Corp. RTL8188CUS`](https://vermaden.wordpress.com/2020/10/30/realtek-usb-wifi-review/)
 * USB wired Ethernet adapters based on `ID 0b95:772b ASIX Electronics Corp. AX88772B`, driven by [axe(4)](https://man.freebsd.org/cgi/man.cgi?query=axe&sektion=4&manpath=freebsd).
