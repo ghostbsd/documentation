@@ -17,6 +17,6 @@ Ocassionally, ISO files may become corrupted during download or during the creat
 
 ### The installation ISO may be outdated or require general bug fixes.
 
-Try creating a bootable USB using the [latest iso](https://ghostbsd.org/download) found on the Download page under *Latest Builds*. GhostBSD is a rolling release and ocassionally updates and fixes are pushed to the latest build before a new official image is created.
+Try creating a bootable USB using the [latest iso](https://www.ghostbsd.org/download) found on the Download page under *Latest Builds*. GhostBSD is a rolling release and ocassionally updates and fixes are pushed to the latest build before a new official image is created.
 
 *Please note*: This section is incomplete and is currently being updated.
