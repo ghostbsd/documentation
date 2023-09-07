@@ -1,9 +1,12 @@
-GhostBSD Documentation portal
+GhostBSD documentation portal
 =============================
-This Documentation repository wil replace https://wiki.ghostbsd.org and builds automatically on every changes pushed in.
+This repository is replacing https://wiki.ghostbsd.org/. 
 
-It uses Sphinx, myst-parser, [readthedocs.io](https://ghostbsd-documentation-portal.readthedocs.io) hook to produce documentation from the Markdown source files in this repository.
+Each change committed here triggers an automated build that results in an update to the portal: 
 
+* https://ghostbsd-documentation-portal.readthedocs.io/
+
+Automation involves Sphinx, myst-parser, Markdown, and a hook with the portal.
 
 ## Local development server
 
@@ -18,11 +21,11 @@ cd documentation
 sphinx-autobuild source build/html
 ```
 
-Now open http://127.0.0.1:8000/index.html in a web browser. It will be regenerated and refreshed whenever one of the files changes get saved.
+Then, open http://127.0.0.1:8000/index.html in a web browser. It will be regenerated and refreshed whenever a changed file is saved.
 
 ## Generating documentation
 
-One can also generate documentation in various output formats locally:
+One can also generate documentation, in various output formats, locally:
 
 ```
 gmake html
