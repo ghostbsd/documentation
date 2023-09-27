@@ -26,7 +26,6 @@ In general, BSD is also considered beyond the average computer user's knowledge.
 
 user/installation-guide/installation-guide
 user/FAQ
-GhostBSD Wiki <https://wiki.ghostbsd.org/>
 ```
 
 
