@@ -40,7 +40,7 @@ contributor/get-involved
 
 
 ```{toctree}
-:caption: Downstream Documentation
+:caption: Upstream Documentation
 :maxdepth: 4
 :hidden:
 MATE Documentation <https://wiki.mate-desktop.org/>
