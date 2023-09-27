@@ -1,15 +1,7 @@
 Welcome to GhostBSD's documentation portal!
 ===========================================
 
-:::{important}
-We are looking for help to port over some the [Wiki](https://wiki.ghostbsd.org/) article to our new documentation portal if you are interested see [Documentation Contribution](contributor/documentation).
-:::
-
 This documentation portal has all of the information users need to get going with their journey using GhostBSD. It also contains information for people that want to help the community, report bugs, and contribute to the project.
-
-:::{warning}
-This documentation portal is uncompleted. If you do not found what you are looking for see [Wiki](https://wiki.ghostbsd.org/).
-:::
 
 ## Overview
 
