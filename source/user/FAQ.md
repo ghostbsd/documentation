@@ -1,6 +1,11 @@
 Frequently Asked Questions
 ==========================
 
+```{contents} Table of Contents
+:depth: 3
+:local:
+```
+
 This document aims to cover the most frequently asked questions concerning the GhostBSD operating system. Although initially intended to reduce bandwidth and avoid the same old questions being asked repeatedly, FAQs have become recognized as valuable information resources.
 
 Every effort has been made to make this FAQ as informative as possible; if you have any suggestions about improving it, please feel for this GitHub and create a [Pull Request on GitHub](https://github.com/ghostbsd/documentation).
@@ -73,4 +78,14 @@ However, you do not have to set up Linux Binary Compatibility on your GhostBSD s
 
 ### How should I update GhostBSD to the latest updates?
 
-To upgrade GhostBSD, use the Update Station. It was made to upgrade GhostBSD properly. If you want the pkg command line, please follow this article. If you do not use pkg properly to upgrade GhostBSD, you will most likely get your system broken.
+To upgrade GhostBSD, use the Update Station. It was made to upgrade GhostBSD properly. If you want the pkg command line, please follow this [article](upgrading-guide.md#ghostbsd-upgrade-with-pkg-cli). If you do not use pkg properly to upgrade GhostBSD, you will most likely get your system broken.
+
+## Miscellaneous
+
+### Why I can't compile code or ports on GhostBSD?
+
+GhostBSD does not come with **os-generic-userland-devtools** preinstall anymore. To enable the capability to compile code and ports install **os-generic-userland-devtools**.
+
+```
+sudo pkg install os-generic-userland-devtools
+```

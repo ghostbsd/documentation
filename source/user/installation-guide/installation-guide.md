@@ -15,8 +15,7 @@ After reading this guide, you will know:
 * Troubleshooting the installer and live media.
 
 ```{toctree}
-:caption: Installation Guide
-:hidden:
+:caption: Table of Contents
 
 getting-started
 full-disk-installation
