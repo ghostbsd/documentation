@@ -8,7 +8,7 @@ Insert the GhostBSD flash drive and reboot or turn on the computer. Before the c
 * Entering the computer's BIOS or UEFI interface and selecting the flash drive.
 * Pressing a designated key to choose the boot device and selecting the flash drive.
 
-The keys to enter the BOIS or UEFI interface or select boot devices vary between motherboards. The proper key may be displayed during the boot process and is often *Del*, *Esc*, or *F1* through *F12*.
+The keys to enter the BIOS or UEFI interface or select boot devices vary between motherboards. The proper key may be displayed during the boot process and is often *Del*, *Esc*, or *F1* through *F12*.
 
 If the computer boots into an existing OS, it may mean:
 
