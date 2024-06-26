@@ -28,6 +28,7 @@ user/FAQ
 :hidden:
 
 contributor/get-involved
+contributor/contributor-levels
 ```
 
 
