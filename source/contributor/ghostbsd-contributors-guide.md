@@ -79,9 +79,9 @@ Code reviews help maintain code quality and ensure adherence to project standard
 ### 7.2. Process
 Review code for correctness, readability, and adherence to coding standards. Provide feedback and request changes if necessary.
 ### 7.3. Checklist
-• Compliance with coding standards.
-• Adequate test coverage.
-• Clear commit messages and documentation updates.
+* Compliance with coding standards.
+* Adequate test coverage.
+* Clear commit messages and documentation updates.
 
 ## 8. Handling Bug Reports
 ### 8.1. Triage
