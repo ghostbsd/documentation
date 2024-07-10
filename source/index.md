@@ -29,6 +29,7 @@ user/FAQ
 
 contributor/get-involved
 contributor/contributor-levels
+contributor/ghostbsd-contributors-guide
 ```
 
 
