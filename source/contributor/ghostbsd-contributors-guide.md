@@ -8,7 +8,7 @@ Welcome to the GhostBSD Contributor’s Guide. This guide outlines the responsib
 ### 2.1. Eligibility
 Anyone who has the interest to help the project can become a contributor. You must become a New Contributor first and have demonstrated a consistent track record of quality contributions to the GhostBSD project.
 ### 2.2. Mentorship Program
-New committers will be assigned a mentor to guide them through the initial stages, ensuring they understand the project’s standards and workflows.
+New committers will be assigned a mentor by the project maintainers to guide them through the initial stages, ensuring they understand the project’s standards and workflows.
 ### 2.3. Trial Ending
 Once the mentor thinks the new contributor understands the project’s standards and workflows well the new contributor will become a contributor.
 
