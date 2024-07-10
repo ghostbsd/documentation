@@ -26,7 +26,10 @@ Engage with the community by participating in discussions, answering questions, 
 ### 4.1. Repository Structure
 Understand the structure of the GhostBSD repositories and where to find relevant code and documentation.
 ### 4.2. Branching Strategy
-Follow the project’s branching strategy for development, feature, and release branches: * main: Stable release branch. * develop: Ongoing development branch. * feature/xxx: Feature branches for new developments.
+Follow the project’s branching strategy for development, feature, and release branches:
+* **main**: Stable release branch.
+* **develop**: Ongoing development branch.
+* **feature/xxx**: Feature branches for new developments.
 ### 4.3. Cloning Repositories
 Clone the main repository:
 ```
