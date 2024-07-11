@@ -1,7 +1,7 @@
 Welcome to GhostBSD's documentation portal!
 ===========================================
 
-This documentation portal has all of the information users need to get going with their journey using GhostBSD. It also contains information for people that want to help the community, report bugs, and contribute to the project.
+This documentation portal has all the information users need to get going with their journey using GhostBSD. It also contains information for people that want to help the community, report bugs, and contribute to the project.
 
 ## Overview
 
@@ -29,6 +29,7 @@ user/FAQ
 
 contributor/get-involved
 contributor/contributor-levels
+contributor/ghostbsd-contributors-guide
 ```
 
 
