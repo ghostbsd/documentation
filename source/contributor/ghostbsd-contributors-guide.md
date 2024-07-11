@@ -32,11 +32,13 @@ Follow the project’s branching strategy for development, feature, and release 
 * **feature/xxx**: Feature branches for new developments.
 ### 4.3. Cloning Repositories
 Clone the main repository:
+
 ```
 git clone git@github.com:ghostbsd/ghostbsd.git
 ```
 ### 4.4. Handling Merge Conflicts
 Resolve conflicts using Git:
+
 ```
 git fetch origin
 git checkout feature/branch
@@ -49,6 +51,7 @@ git commit
 ## 5. Commit Messages
 ### 5.1. Format
 Use the following format for commit messages:
+
 ```
 Subject Line (50 characters or less)
 
@@ -89,9 +92,9 @@ Prioritize and categorize bug reports based on severity and impact.
 ### 8.2. Resolution
 Work on resolving bugs in a timely manner, ensuring that fixes are well-tested.
 ### 8.3. Examples
-• High Priority: Critical system crashes.
-• Medium Priority: Functionality issues.
-• Low Priority: Minor UI bugs.
+* High Priority: Critical system crashes.
+* Medium Priority: Functionality issues.
+* Low Priority: Minor UI bugs.
 
 ## 9. Testing And Quality Assurance
 ### 9.1. Automated Testing
@@ -101,8 +104,8 @@ Perform manual testing when necessary, especially for user-facing features.
 ### 9.3. Continuous Integration
 Make use of the project’s continuous integration system to verify your changes.
 ### 9.4. Guidelines for Writing Tests
-• Use testing frameworks.
-• Include unit tests for new features.
+* Use testing frameworks.
+* Include unit tests for new features.
 
 ## 10. Documentation
 ### 10.1. Updating Documentation
@@ -110,10 +113,10 @@ Ensure that all changes are reflected in the relevant documentation.
 ### 10.2. Writing New Documentation
 Write clear, concise, and comprehensive documentation for new features and changes.
 ### 10.3. Standards
-• Use Markdown for documentation.
-• Follow the project’s style guide.
+* Use Markdown for documentation.
+* Follow the project’s style guide.
 ### 10.4. Tools
-• MkDocs for documentation management.
+* MkDocs for documentation management.
 
 ## 11. Communication And Conduct
 ### 11.1. Code of Conduct
@@ -121,11 +124,13 @@ Adhere to the project’s code of conduct in all interactions.
 ### 11.2. Communication Channels
 Use appropriate channels (mailing lists, forums, chat) for discussions and announcements.
 ### 11.3. Examples of Proper Etiquette
-• Respectful and constructive communication.
-• Professionalism in all interactions.
+* Respectful and constructive communication.
+* Professionalism in all interactions.
 
 ## 12. Resources
 ### 12.1. Documentation
 Access the project’s documentation portal for guidelines and references.
 ### 12.2. Tools
-Recommended tools and utilities for development: * IDEs: VSCode, Sublime Text * Debugging Tools: GDB, LLDB
+Recommended tools and utilities for development: 
+* IDEs: JetBrains IDEs, vscode, Sublime Text
+* Debugging Tools: GDB, LLDB
