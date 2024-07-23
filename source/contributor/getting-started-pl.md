@@ -68,7 +68,7 @@ Oto języki, które używamy najczęściej.
 
 #### Python
 
-Większość aplikacji programowych i narzędzi konfiguracyjnych jest również napisanych w Pythonie.
+Większość aplikacji programowych i narzędzi konfiguracyjnych jest napisanych w Pythonie.
 
 Zaletą Pythona jest to, że jest łatwy do nauki i szybki w rozwoju.
 
