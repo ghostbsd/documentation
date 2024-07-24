@@ -127,7 +127,7 @@ Nie musisz jednak korzystać wyłącznie z linii poleceń Gita.
 
 Oto kilka narzędzi, które mogą ułatwić korzystanie z Gita.
 
-`gitk` jest nieestetyczny i wygląda na przestarzały (został opracowany w Tcl/Tk), ale jest bardzo przydatny do szybkiego przeglądania historii commitów, tworzenia gałęzi i wybierania commitów.
+`gitk`, choć jest nieestetyczny i wygląda na przestarzały (został opracowany w Tcl/Tk), jest bardzo przydatny do szybkiego przeglądania historii commitów, tworzenia gałęzi i wybierania commitów.
 
 Możesz zainstalować go z repozytoriów:
 ```
