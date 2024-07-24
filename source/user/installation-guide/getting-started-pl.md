@@ -46,7 +46,7 @@ Po pobraniu odpowiedniego obrazu ISO, skopiuj go na pamięć USB, korzystając z
 **Uwaga:**
 * GhostBSD-YY.MM.DD.iso reprezentuje aktualny obraz ISO GhostBSD, na przykład, GhostBSD-23.06.18.iso.
 * Podobnie, X to liczba lub litera, która zmienia się w zależności od liczby dysków podłączonych do komputera, na przykład, /dev/da-1 lub /dev/sdb.
-* Może być również konieczne uruchomienie poniższych poleceń jako root, używając narzędzia takiego jak sudo.
+* Może być również konieczne uruchomienie poniższych poleceń jako użytkownik root, używając narzędzia takiego jak sudo.
 
 **Na \*BSD**
 ```
