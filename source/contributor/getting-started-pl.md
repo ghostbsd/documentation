@@ -14,7 +14,8 @@ Nie musisz być biegły w angielskim ani mieć doskonałej znajomości tego jęz
 
 Git to system kontroli wersji, którego używamy do śledzenia zmian. Korzystamy z niego cały czas i wszędzie.
 
-Jeśli nie znasz Git, zatrzymaj się na chwilę, musisz go poznać.
+```suggestion
+Jeśli nie znasz Git, zatrzymaj się na chwilę i poznaj go.
 
 Aby nauczyć się Git, odwiedź [Dokumentację GitHub](https://docs.github.com/en/get-started/quickstart/set-up-git).
 
