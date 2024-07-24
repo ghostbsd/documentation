@@ -109,7 +109,7 @@ lub
 sudo pkg install linux-sublime-text4
 ```
 
-Jeśli zainstalujesz Sublime, zainstaluj również jego [Package Control](https://packagecontrol.io/installation) i użyj go do zainstalowania rozszerzeń *GitGutter* i *TrailingSpaces*.
+Jeśli zainstalujesz Sublime, zainstaluj również [Package Control](https://packagecontrol.io/installation) i użyj go do zainstalowania rozszerzeń *GitGutter* i *TrailingSpaces*.
 
 [Visual Studio Code](https://code.visualstudio.com/) jest również bardzo popularnym wyborem.
 
