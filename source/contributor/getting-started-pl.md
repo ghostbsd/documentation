@@ -139,7 +139,7 @@ gitk
 ```
 W katalogu projektu wystarczy wpisać `gitk`, aby zobaczyć historię commitów. Możesz także określić nazwę gałęzi, aby zobaczyć tę gałąź, lub podkatalog, aby zobaczyć historię konkretnego katalogu.
 
-`gitg` jest bardzo podobny i wygląda lepiej (używa Gtk), ale jego zestaw funkcji jest nieco inny.
+`gitg` choć jest bardzo podobny i wygląda lepiej (używa Gtk), jego zestaw funkcji jest nieco inny.
 ```
 pkg install gitg
 cd ~/projects/ghostbsd
