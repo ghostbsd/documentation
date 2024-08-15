@@ -84,8 +84,10 @@ To upgrade GhostBSD, use the Update Station. It was made to upgrade GhostBSD pro
 
 ### Why can't I compile code or ports on GhostBSD?
 
-GhostBSD does not come with **os-generic-userland-devtools** preinstall anymore. To enable the capability to compile code and ports install **os-generic-userland-devtools**.
+GhostBSD no longer comes with development tools preinstalled. To enable the capability to compile code and ports, install the GhostBSD*-dev packages. These packages include essential build tools, compilers, and libraries necessary for software development. Use the following command to install them:
+
+pkg install ghostbsd-devel
 
 ```
-sudo pkg install os-generic-userland-devtools
+sudo pkg install -g 'GhostBSD*-dev'
 ```
