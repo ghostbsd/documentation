@@ -86,8 +86,6 @@ To upgrade GhostBSD, use the Update Station. It was made to upgrade GhostBSD pro
 
 GhostBSD no longer comes with development tools preinstalled. To enable the capability to compile code and ports, install the GhostBSD*-dev packages. These packages include essential build tools, compilers, and libraries necessary for software development. Use the following command to install them:
 
-pkg install ghostbsd-devel
-
 ```
 sudo pkg install -g 'GhostBSD*-dev'
 ```
