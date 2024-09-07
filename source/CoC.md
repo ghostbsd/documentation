@@ -11,7 +11,7 @@ The GhostBSD community has always worked to be a welcoming and respectful commun
 
 This isn’t an exhaustive list of things that you can’t do. Rather, take it in the spirit in which it’s intended - a guide to make it easier to communicate and participate in the community.
 
-This code of conduct applies to all spaces managed by the GhostBSD project. This includes online chat, issue trackers, GhostBSD events such as the developer meetings and socials, and any other forums created by the project that the community uses for communication. It applies to all of your communication and conduct in these spaces, including emails, chats, things you say, slides, videos, posters, signs, or even t-shirts you display in these spaces.
+This code of conduct applies to all spaces managed by the GhostBSD project. This includes online platforms (such as forums, wikis, Telegram, IRC), issue trackers, bug reports, GhostBSD events (like developer meetings and socials), and any other communication channels created by the project. It covers all forms of interaction in these spaces, including but not limited to emails, chats, verbal communication, presentations, visual materials, and even clothing displayed in these contexts.
 
 If you believe someone is violating the code of conduct, we ask that you report it by emailing  [hello@GhostBSD.org](mailto:hello@GhostBSD.org?subject=Reported%20CoC%20Violation).
 * **Be friendly and patient.**
