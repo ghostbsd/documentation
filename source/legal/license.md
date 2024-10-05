@@ -1,9 +1,9 @@
 Copyrights and licenses
 =======================
 
-This is a list of copyrights and licenses for GhostBSD or for projects used by GhostBSD.
+This is a list of copyrights and licenses for GhostBSD or projects used by GhostBSD.
 
-- <a target="_blank" href="https://opensource.org/licenses/CDDL-1.0">Common Development and Distribution License (CDDL)</a>
+- [GhostBSD Copyright](https://www.ghostbsd.org/about/license)
 
 - Berkeley Software Distribution License (BSD)
     - <a target="_blank" href="https://www.freebsd.org/copyright/freebsd-license/">FreeBSD Copyright</a>
@@ -20,6 +20,6 @@ This is a list of copyrights and licenses for GhostBSD or for projects used by G
     - <a target="_blank" href="https://www.gnu.org/licenses/old-licenses/lgpl-2.0.html">Version 2</a>
     - <a target="_blank" href="https://www.gnu.org/licenses/lgpl-3.0.html">Version 3</a>
 
-- Additional information about open source licenses
+- Additional information about open-source licenses
     - <a target="_blank" href="https://opensource.org/licenses/alphabetical">Open Source Initiative</a>
     - <a target="_blank" href="https://en.wikipedia.org/wiki/Comparison_of_free_and_open-source_software_licenses">Wikipedia comparison page</a>
