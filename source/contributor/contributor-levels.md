@@ -3,6 +3,7 @@ GhostBSD Contributor Levels
 
 ## 1. Junior Contributors
 **Description:** New members who are actively contributing to the project.
+
 **Access and Permissions:** Access to public repositories with full capabilities to create branches and submit pull requests.
 
 **Responsibilities:**
@@ -12,6 +13,7 @@ GhostBSD Contributor Levels
 
 ## 2. Contributors
 **Description:** Members who have consistently contributed and strongly understand the project workflow.
+
 **Access and Permissions:** Full access to all repositories with the ability to create branches and submit pull requests.
 
 **Responsibilities:**
@@ -23,6 +25,7 @@ GhostBSD Contributor Levels
 ## 3. Core Contributors
 
 **Description:** Long-time contributors with significant contributions and comprehensive knowledge of the project.
+
 **Access and Permissions:** Complete access and permission to all repositories, including creating new ones and participating in decision-making processes.
 
 **Responsibilities:**
@@ -34,6 +37,7 @@ GhostBSD Contributor Levels
 
 ## 4. Project Leader
 **Description:** The overall leader and visionary for the project.
+
 **Access and Permissions:** Complete administrative access and authority to make final decisions.
 
 **Responsibilities:**
