@@ -1,6 +1,10 @@
 name: Project automations
 
 on:
+  issues:
+    types:
+      - opened
+      - assigned
   pull_request_target:
     types:
       - opened
@@ -9,9 +13,41 @@ on:
 
 # map fields with customized labels
 env:
+  new: New
+  todo: Todo
+  done: Done
+  in_progress: In Progress
   in_review: In Review
 
 jobs:
+  issue_opened:
+    name: issue_opened
+    runs-on: ubuntu-latest
+    if: github.event_name == 'issues' && (github.event.action == 'opened')
+    steps:
+      - name: Move issue to ${{ env.new }}
+        uses: leonsteinhaeuser/project-beta-automations@v2.1.0
+        with:
+          gh_token: ${{ secrets.MY_GITHUB_TOKEN }}
+          # user: ghostbsd
+          organization: ghostbsd
+          project_id: 5
+          resource_node_id: ${{ github.event.issue.node_id }}
+          status_value: ${{ env.new }}
+  issue_assigned:
+    name: issue_assigned
+    runs-on: ubuntu-latest
+    if: github.event_name == 'issues' && (github.event.action == 'assigned')
+    steps:
+      - name: Move issue to ${{ env.in_progress }}
+        uses: leonsteinhaeuser/project-beta-automations@v2.1.0
+        with:
+          gh_token: ${{ secrets.MY_GITHUB_TOKEN }}
+          # user: ghostbsd
+          organization: ghostbsd
+          project_id: 5
+          resource_node_id: ${{ github.event.issue.node_id }}
+          status_value: ${{ env.in_progress }}
   pr_opened:
     name: pr_opened
     runs-on: ubuntu-latest
