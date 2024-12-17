@@ -87,11 +87,11 @@ If a similar message than the above one is encounter, **sudo pkg upgrade -f** mu
 ### Starting the upgrade
 Run the command below if there is a kernel mismatch with **update -f**.
 ```
-sudo pkg update -f
+sudo pkg upgrade -f
 ```
 Run the command below if there no kernel mismatch with **update -f**.
 ```
-sudo pkg update
+sudo pkg upgrade
 ```
 
 ### After the upgrade

@@ -28,4 +28,4 @@ Violations can be reported to **hello@GhostBSD.org**. Reports will be handled tr
 By adhering to this Code, we ensure GhostBSD remains a positive space for all.  
 
 ## Questions?
-If you have questions, please feel free to contact the GhostBSD Code of Conduct Committee by emailing [hello@GhostBSD.org](mailto:hello@GhostBSD.org?subject=Code%20of%20Conduct%20Question).
+If you have questions, please feel free to contact the GhostBSD Code of Conduct Committee by emailing [hello@GhostBSD.org](mailto:hello@GhostBSD.org?subject=Code%20of%20Conduct%20Question).questions, please feel free to contact the GhostBSD Code of Conduct Committee by emailing [hello@GhostBSD.org](mailto:hello@GhostBSD.org?subject=Code%20of%20Conduct%20Question).

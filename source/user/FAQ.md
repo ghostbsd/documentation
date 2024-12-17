@@ -22,7 +22,7 @@ GhostBSD was developed as an operating system to hack Gnome using FreeBSD techno
 
 ### On which FreeBSD branch is GhostBSD based?
 
-GhostBSD is based on the latest stable branch. It is currently on stable/13 and will soon move to stable/14.
+GhostBSD is based on the latest stable branch. It is currently on stable/14.
 
 ### Who can use GhostBSD?
 
