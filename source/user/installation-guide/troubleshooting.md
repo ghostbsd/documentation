@@ -46,7 +46,6 @@ Users of affected Apple hardware may find it impossible to set the Mac to use a 
 ### The installation ISO may be outdated.
 
 Try creating a bootable USB using the [latest image](https://www.ghostbsd.org/download).
-GhostBSD is a rolling release and ocassionally updates and fixes are pushed to the latest build before a new official image is created.
 
 ### …
 
