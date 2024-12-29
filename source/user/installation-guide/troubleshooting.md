@@ -43,9 +43,6 @@ If your computer BIOS allows one of two GPUs to be disabled: please make this se
 
 Users of affected Apple hardware may find it impossible to set the Mac to use a single GPU.
 
-### The installation ISO may be outdated.
-
-Try creating a bootable USB using the [latest image](https://www.ghostbsd.org/download).
 
 ### …
 
