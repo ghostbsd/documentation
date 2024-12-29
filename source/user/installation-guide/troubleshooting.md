@@ -27,14 +27,14 @@ Please refer to the [Getting started](getting-started.md) guide to download a ne
 
 ## The live system does not reach a graphical desktop environment.
 
-### GhostBSD automated configuration of X.Org does not support some dual-GPU configurations.
+### GhostBSD automated configuration does not support some dual-GPU configurations.
 
 Symptoms may include:
 
 - _Setting up (Intel DRM).. Please wait.._ -- on screen, no progress beyond this line
 - a mostly black screen -- a white rectangle in the upper left corner, with a pointer that can not be moved.
 
-Auto-config may fail with, for example: 
+Auto-config (kernel modules, other graphics drivers, X.Org) may fail with, for example: 
 
 - computers that support [NVIDIA Optimus](https://en.wikipedia.org/wiki/Nvidia_Optimus)
 - some dual-GPU Macs.
