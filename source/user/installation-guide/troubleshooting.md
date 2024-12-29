@@ -27,13 +27,27 @@ Please refer to the [Getting started](getting-started.md) guide to download a ne
 
 ## The live system does not reach a graphical desktop environment.
 
-…
+### GhostBSD automated configuration of X.Org does not support some dual-GPU configurations.
+
+Symptoms may include:
+
+- _Setting up (Intel DRM).. Please wait.._ -- on screen, no progress beyond this line
+- a mostly black screen -- a white rectangle in the upper left corner, with a pointer that can not be moved.
+
+Auto-config may fail with, for example: 
+
+- computers that support [NVIDIA Optimus](https://en.wikipedia.org/wiki/Nvidia_Optimus)
+- some dual-GPU Macs.
+
+If your computer BIOS allows one of two GPUs to be disabled: please make this setting before your next attempt to boot the live system.
+
+Users of affected Apple hardware may find it impossible to set the Mac to use a single GPU.
 
 ### The installation ISO may be outdated.
 
 Try creating a bootable USB using the [latest image](https://www.ghostbsd.org/download).
 GhostBSD is a rolling release and ocassionally updates and fixes are pushed to the latest build before a new official image is created.
 
-----
+### …
 
-Please note: this page is incomplete.
+Please note: this section is incomplete.
