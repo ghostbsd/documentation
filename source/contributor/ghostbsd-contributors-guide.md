@@ -118,12 +118,10 @@ Write clear, concise, and comprehensive documentation for new features and chang
 ### 10.4. Tools
 * MkDocs for documentation management.
 
-## 11. Communication And Conduct
-### 11.1. Code of Conduct
-Adhere to the project’s code of conduct in all interactions.
-### 11.2. Communication Channels
+## 11. Communication
+### 11.1. Communication Channels
 Use appropriate channels (mailing lists, forums, chat) for discussions and announcements.
-### 11.3. Examples of Proper Etiquette
+### 11.2. Examples of Proper Etiquette
 * Respectful and constructive communication.
 * Professionalism in all interactions.
 
