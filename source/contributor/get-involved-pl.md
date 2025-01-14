@@ -3,8 +3,6 @@ Zaangażuj się
 
 Witamy w Społeczności GhostBSD! Angażując się, poznasz nowych przyjaciół, nauczysz się nowych umiejętności i zrobisz różnicę dla wielu użytkowników, współpracując z ludźmi z całego świata. Ta strona przedstawi Ci krótko rzeczy, które każdy, kto przyczynia się do GhostBSD, powinien wiedzieć i pomoże Ci zacząć działać.
 
-Chcemy, aby współpracownicy GhostBSD tworzyli przyjazne i otwarte miejsce, gdzie ludzie czują się komfortowo. Dlatego prosimy o przestrzeganie [Kodeksu Postępowania GhostBSD](../CoC.md) podczas interakcji z resztą społeczności GhostBSD.
-
 ## [Rozpoczęcie pracy](getting-started.md)
 
 Ta sekcja obejmuje wymagania i technologie używane przez GhostBSD. Jeśli potrzebujesz pomocy na początek, prosimy zadawać wszelkie pytania na [Telegramie](https://t.me/ghostbsd) lub [Element](https://app.element.io/#/room/#ghostbsd:matrix.org)!
