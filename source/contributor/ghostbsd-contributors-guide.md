@@ -119,9 +119,9 @@ Write clear, concise, and comprehensive documentation for new features and chang
 * MkDocs for documentation management.
 
 ## 11. Communication
-### 11.2. Communication Channels
+### 11.1. Communication Channels
 Use appropriate channels (mailing lists, forums, chat) for discussions and announcements.
-### 11.3. Examples of Proper Etiquette
+### 11.2. Examples of Proper Etiquette
 * Respectful and constructive communication.
 * Professionalism in all interactions.
 
