@@ -1,0 +1,190 @@
+/* Dark mode styles, applied only when body has the dark-mode class */
+body.dark-mode {
+    background-color: #252525; /* Slightly lighter dark gray */
+    color: #e0e0e0; /* Light gray text */
+}
+
+body.dark-mode .wy-nav-top {
+    background-color: #2b2b2b; /* Darker header */
+}
+
+body.dark-mode .wy-nav-side {
+    background-color: #2b2b2b; /* Dark sidebar */
+}
+
+body.dark-mode .wy-menu-vertical a {
+    color: #e0e0e0; /* Light sidebar links */
+}
+
+body.dark-mode .wy-menu-vertical a:hover {
+    background-color: #3c3c3c; /* Hover effect for general links */
+}
+
+body.dark-mode .wy-nav-content {
+    background-color: #252525; /* Match the body background */
+}
+
+body.dark-mode h1,
+body.dark-mode h2,
+body.dark-mode h3,
+body.dark-mode h4,
+body.dark-mode h5,
+body.dark-mode h6 {
+    color: #ffffff; /* White headings */
+}
+
+body.dark-mode a {
+    color: #4da8da; /* Light blue links */
+}
+
+body.dark-mode a:hover {
+    color: #66b3ff; /* Lighter blue on hover */
+}
+
+body.dark-mode pre {
+    background-color: #2b2b2b; /* Dark code background */
+    color: #e0e0e0; /* Light code text */
+    border: 1px solid #3c3c3c;
+}
+
+/* Optional: Style the toggle button */
+button {
+    padding: 8px 16px;
+    background-color: #4da8da;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #66b3ff;
+}
+
+body.dark-mode button {
+    background-color: #2b2b2b;
+    color: #e0e0e0;
+}
+
+body.dark-mode button:hover {
+    background-color: #3c3c3c;
+}
+
+/* Ensure proper layout in wy-breadcrumbs */
+.wy-breadcrumbs {
+    position: relative;
+    padding: 0 10px;
+    overflow: hidden; /* Contain floated elements */
+    white-space: nowrap; /* Prevent wrapping */
+}
+
+/* Style <li> elements to stay inline */
+.wy-breadcrumbs li {
+    display: inline-block;
+    margin-right: 5px;
+    vertical-align: middle; /* Align breadcrumb items */
+}
+
+/* Style wy-breadcrumbs-aside to keep "View page source" on the right */
+.wy-breadcrumbs-aside {
+    float: right; /* Matches theme's default behavior */
+    display: inline-block;
+    margin-left: 10px; /* Space from button */
+}
+
+/* Ensure "View page source" aligns properly */
+.wy-breadcrumbs-aside a {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/* Style the button directly in wy-breadcrumbs to stay on the right */
+.wy-breadcrumbs button {
+    float: right; /* Pin to the right */
+    margin-left: 10px; /* Space from breadcrumb text */
+    margin-right: 10px; /* Space before "View page source" */
+    vertical-align: middle; /* Align with other items */
+}
+
+/* Keep <a class="icon icon-home">GhostBSD</a> white in both modes */
+.wy-side-nav-search .icon.icon-home:not([aria-label="Home"]) {
+    color: #ffffff; /* White in light mode */
+}
+
+body.dark-mode .wy-side-nav-search .icon.icon-home:not([aria-label="Home"]) {
+    color: #ffffff; /* White in dark mode */
+}
+
+/* Fix white background of .toctree-l1.current in dark mode */
+body.dark-mode .wy-menu-vertical .toctree-l1.current {
+    background-color: #3c3c3c; /* Slightly lighter than sidebar */
+}
+
+/* Darken background of <a class="reference internal current"> in dark mode */
+body.dark-mode .wy-menu-vertical a.reference.internal.current {
+    background-color: #333333; /* Darker than #3c3c3c */
+}
+
+/* Ensure .toctree-l2 <a> fills the li and darkens on hover */
+.wy-menu-vertical .toctree-l2 a {
+    display: block; /* Ensure it fills the li */
+}
+
+body.dark-mode .wy-menu-vertical .toctree-l2 a:hover {
+    background-color: #2a2a2a !important; /* Darker than #3c3c3c, override all */
+}
+
+/* Ensure <a> in sidebar fills its parent <li> */
+.wy-menu-vertical .toctree-l1 a {
+    display: block; /* Ensure it fills the li */
+}
+
+/* Ensure <a> in toctree-l3 fills its parent <li> */
+.wy-menu-vertical .toctree-l3 a {
+    display: block; /* Ensure it fills the li */
+}
+
+/* Darken <a href="#"> inside .toctree-l1.current[aria-expanded="true"] at all times */
+body.dark-mode .wy-menu-vertical .toctree-l1.current[aria-expanded="true"] a[href="#"] {
+    background-color: #2b2b2b; /* Darker than #3c3c3c, constant background */
+}
+
+/* Highly specific override for .toctree-l2.current in dark mode */
+body.dark-mode .wy-nav-side .wy-menu.wy-menu-vertical ul li.current.toctree-l2 {
+    background-color: #3c3c3c !important; /* Reordered classes for specificity */
+}
+
+/* Ensure li.toctree-l2.current has the correct background in dark mode */
+body.dark-mode .wy-menu-vertical li.toctree-l2.current {
+    background-color: #3c3c3c !important;
+}
+
+/* Ensure the <a> inside li.toctree-l2.current does not override the background */
+body.dark-mode .wy-menu-vertical li.toctree-l2.current a {
+    background-color: transparent !important;
+}
+
+/* Ensure nested <ul> inside li.toctree-l2.current does not override the background */
+body.dark-mode .wy-menu-vertical li.toctree-l2.current ul {
+    background-color: transparent !important;
+}
+
+/* Ensure hover effect for toctree-l3 links in dark mode */
+body.dark-mode .wy-nav-side .wy-menu.wy-menu-vertical li.toctree-l3 a:hover {
+    background-color: #2a2a2a !important; /* Darker than #3c3c3c, override all */
+}
+
+/* Prevent parent li.toctree-l3 from interfering with hover effect */
+body.dark-mode .wy-menu-vertical li.toctree-l3:hover {
+    background-color: transparent !important;
+}
+
+/* Ensure li.toctree-l3.current has the correct background in dark mode */
+body.dark-mode .wy-menu-vertical li.toctree-l3.current {
+    background-color: #3c3c3c !important; /* Matches toctree-l2.current */
+}
+
+/* Ensure the <a> inside li.toctree-l3.current does not override the background */
+body.dark-mode .wy-menu-vertical li.toctree-l3.current a {
+    background-color: transparent !important;
+}
