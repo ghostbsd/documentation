@@ -63,7 +63,7 @@ html_context = {
   'display_github': True,
   'github_user': 'ghostbsd',
   'github_repo': 'documentation',
-  'github_version': 'main/',
+  'github_version': 'master/',
 }
 
 # Add any paths that contain custom static files (such as style sheets) here,
