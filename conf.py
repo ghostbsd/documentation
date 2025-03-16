@@ -17,7 +17,7 @@
 # -- Project information -----------------------------------------------------
 
 project = 'GhostBSD'
-copyright = '2021, GhostBSD'
+copyright = '2025, GhostBSD'
 author = 'Eric Turgeon'
 
 
@@ -27,7 +27,8 @@ author = 'Eric Turgeon'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
-    'myst_parser'
+    'myst_parser',
+    'sphinx_rtd_theme'
 ]
 
 myst_heading_anchors = 3
@@ -61,3 +62,5 @@ html_theme = 'sphinx_rtd_theme'
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
+html_css_files = ['dark_mode.css']
+html_js_files = ['dark_mode.js']
