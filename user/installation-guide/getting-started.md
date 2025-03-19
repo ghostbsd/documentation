@@ -82,7 +82,7 @@ dd if=/path/to/GhostBSD-YY.PP-RXX.YpL.iso of=/dev/diskX bs=3m
 
 A list of additional live USB creation tools can be found on [Wikpedia](https://en.wikipedia.org/wiki/List_of_tools_to_create_Live_USB_systems).
 
-The steps described above will create a bootable GhostBSD system on a USB flash drive. To start a live session, insert the flash drive into the computer, reboot, and select the flash drive as the boot device. Further information can be found [here](https://wiki.ghostbsd.org/index.php/Starting_GhostBSD_Live_Media).
+The steps described above will create a bootable GhostBSD system on a USB flash drive. To start a live session, insert the flash drive into the computer, reboot, and select the flash drive as the boot device. Further information can be found [here](#starting-the-ghostbsd-live-system).
 
 Users have also reported success with [Ventoy](https://ventoy.net)
 
