@@ -84,6 +84,8 @@ A list of additional live USB creation tools can be found on [Wikpedia](https://
 
 The steps described above will create a bootable GhostBSD system on a USB flash drive. To start a live session, insert the flash drive into the computer, reboot, and select the flash drive as the boot device. Further information can be found [here](https://wiki.ghostbsd.org/index.php/Starting_GhostBSD_Live_Media).
 
+Users have also reported success with [Ventoy](https://ventoy.net)
+
 ## Virtualization environments
 
 ``` .. note::
