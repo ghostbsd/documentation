@@ -7,7 +7,7 @@ GhostBSD is available for general use.
 
 ## System requirements
 
-* 2 GHz dual core Intel/ARM 64-bit processor
+* 2 GHz dual core Intel/AMD 64-bit processor
 * 4 GiB RAM (system memory for physical and viritualized installs)
 * VGA capable of 1024x768 screen resolution
 * Network connection
