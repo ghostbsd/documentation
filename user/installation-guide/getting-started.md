@@ -37,7 +37,7 @@ Not all networking devices may be supported by GhostBSD yet. In those cases, you
 
 The **GhostBSD** ISO image is available for download [here](https://www.ghostbsd.org/download).
 
-Experimental development images are available for download [here](https://download.ghostbsd.org/development/amd64/latest/).
+~~Experimental development images are available for download [here](https://download.ghostbsd.org/development/amd64/latest/).~~
 
 ## Creating a bootable USB flash drive
 
