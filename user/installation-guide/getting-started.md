@@ -53,6 +53,16 @@ After downloading the appropriate ISO image, copy it to a USB flash drive using 
 dd if=/path/to/GhostBSD-YY.PP-RXX.YpL.iso of=/dev/daX bs=3m
 ```
 
+**On OpenBSD**
+```
+dd if=/path/to/GhostBSD-YY.PP-RXX.YpL.iso of=/dev/rsdXc bs=3m
+```
+
+**On NetBSD**
+```
+dd if=/path/to/GhostBSD-YY.PP-RXX.YpL.iso of=/dev/rsdXd bs=3m
+```
+
 **On Linux**
 ```
 dd if=/path/to/GhostBSD-YY.PP-RXX.YpL.iso of=/dev/sdX bs=3M
