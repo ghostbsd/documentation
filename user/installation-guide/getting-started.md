@@ -44,23 +44,23 @@ The **GhostBSD** ISO image is available for download [here](https://www.ghostbsd
 After downloading the appropriate ISO image, copy it to a USB flash drive using one of the methods described below.
 
 **Please Note**:
-* GhostBSD-YY.MM.DD.iso represents the current GhostBSD ISO, for example, GhostBSD-23.06.18.iso.
+* GhostBSD-YY.PP-RXX.YpL.iso represents the current GhostBSD ISO, for example, GhostBSD-25.01-R14.2p2.iso.
 * Likewise, X is a number or letter that will change based on the number of drives attached to the computer, for example, /dev/da-1 or /dev/sdb.
 * It may also be necessary to run the commands below as root using a tool like sudo.
 
-**On \*BSD**
+**On FreeBSD**
 ```
-dd if=/path/to/GhostBSD-YY.MM.DD.iso of=/dev/daX bs=3m
+dd if=/path/to/GhostBSD-YY.PP-RXX.YpL.iso of=/dev/daX bs=3m
 ```
 
 **On Linux**
 ```
-dd if=/path/to/GhostBSD-YY.MM.DD.iso of=/dev/sdX bs=3M
+dd if=/path/to/GhostBSD-YY.PP-RXX.YpL.iso of=/dev/sdX bs=3M
 ```
 
 **On macOS**
 ```
-dd if=/path/to/GhostBSD-YY.MM.DD.iso of=/dev/diskX bs=3m
+dd if=/path/to/GhostBSD-YY.PP-RXX.YpL.iso of=/dev/diskX bs=3m
 ```
 
 **On Windows**
