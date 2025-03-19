@@ -7,8 +7,8 @@ GhostBSD is available for general use.
 
 ## System requirements
 
-* 2 GHz dual core Intel/ARM 64-bit processor
-* 4 GiB RAM (system memory for physical and viritualized installs)
+* 2 GHz dual core Intel/AMD 64-bit processor
+* 4 GiB RAM (system memory for physical and virtualized installs)
 * VGA capable of 1024x768 screen resolution
 * Network connection
 * 15 GiB of storage
@@ -37,30 +37,40 @@ Not all networking devices may be supported by GhostBSD yet. In those cases, you
 
 The **GhostBSD** ISO image is available for download [here](https://www.ghostbsd.org/download).
 
-Experimental development images are available for download [here](https://download.ghostbsd.org/development/amd64/latest/).
+~~Experimental development images are available for download [here](https://download.ghostbsd.org/development/amd64/latest/).~~
 
 ## Creating a bootable USB flash drive
 
 After downloading the appropriate ISO image, copy it to a USB flash drive using one of the methods described below.
 
 **Please Note**:
-* GhostBSD-YY.MM.DD.iso represents the current GhostBSD ISO, for example, GhostBSD-23.06.18.iso.
+* GhostBSD-YY.PP-RXX.YpL.iso represents the current GhostBSD ISO, for example, GhostBSD-25.01-R14.2p2.iso.
 * Likewise, X is a number or letter that will change based on the number of drives attached to the computer, for example, /dev/da-1 or /dev/sdb.
 * It may also be necessary to run the commands below as root using a tool like sudo.
 
-**On \*BSD**
+**On FreeBSD**
 ```
-dd if=/path/to/GhostBSD-YY.MM.DD.iso of=/dev/daX bs=3m
+dd if=/path/to/GhostBSD-YY.PP-RXX.YpL.iso of=/dev/daX bs=3m
+```
+
+**On OpenBSD**
+```
+dd if=/path/to/GhostBSD-YY.PP-RXX.YpL.iso of=/dev/rsdXc bs=3m
+```
+
+**On NetBSD**
+```
+dd if=/path/to/GhostBSD-YY.PP-RXX.YpL.iso of=/dev/rsdXd bs=3m
 ```
 
 **On Linux**
 ```
-dd if=/path/to/GhostBSD-YY.MM.DD.iso of=/dev/sdX bs=3M
+dd if=/path/to/GhostBSD-YY.PP-RXX.YpL.iso of=/dev/sdX bs=3M
 ```
 
 **On macOS**
 ```
-dd if=/path/to/GhostBSD-YY.MM.DD.iso of=/dev/diskX bs=3m
+dd if=/path/to/GhostBSD-YY.PP-RXX.YpL.iso of=/dev/diskX bs=3m
 ```
 
 **On Windows**
@@ -72,7 +82,9 @@ dd if=/path/to/GhostBSD-YY.MM.DD.iso of=/dev/diskX bs=3m
 
 A list of additional live USB creation tools can be found on [Wikpedia](https://en.wikipedia.org/wiki/List_of_tools_to_create_Live_USB_systems).
 
-The steps described above will create a bootable GhostBSD system on a USB flash drive. To start a live session, insert the flash drive into the computer, reboot, and select the flash drive as the boot device. Further information can be found [here](https://wiki.ghostbsd.org/index.php/Starting_GhostBSD_Live_Media).
+The steps described above will create a bootable GhostBSD system on a USB flash drive. To start a live session, insert the flash drive into the computer, reboot, and select the flash drive as the boot device. Further information can be found [here](#starting-the-ghostbsd-live-system).
+
+Users have also reported success with [Ventoy](https://ventoy.net)
 
 ## Virtualization environments
 
