@@ -1,7 +1,7 @@
 GhostBSD Contributor Levels
 ===========================
 
-## 1. Junior Contributors
+## 1. New Contributors
 **Description:** New members who are actively contributing to the project.
 
 **Access and Permissions:** Access to public repositories with full capabilities to create branches and submit pull requests.

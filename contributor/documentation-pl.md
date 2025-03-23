@@ -13,7 +13,7 @@ Te trzy platformy komunikacyjne są ze sobą połączone. Bez względu na to, cz
 
 ## Uzyskiwanie zasobów
 
-Aby dokumentować projekty GhostBSD, warto uruchomić [najnowszą wersję GhostBSD](https://www.ghostbsd.org/download#latest_builds), a do dokumentowania projektów innych firm potrzebna będzie również najnowsza wersja tego programu. Używamy [Sphinx](https://www.sphinx-doc.org) z [MyST](https://myst-parser.readthedocs.io), co ułatwia tworzenie naszego Centrum Dokumentacji. Każdy, kto chce pomóc, powinien zacząć zapoznawać się z [Git](getting-started.md#knowing-how-to-use-git), [GitHub](getting-started.md#knowing-how-to-use-github) i [MyST Markdown syntax](https://myst-parser.readthedocs.io/en/latest/intro.html).
+Aby dokumentować projekty GhostBSD, warto uruchomić [najnowszą wersję GhostBSD](https://www.ghostbsd.org/download#latest_builds), a do dokumentowania projektów innych firm potrzebna będzie również najnowsza wersja tego programu. Używamy [Sphinx](https://www.sphinx-doc.org) z [MyST](https://myst-parser.readthedocs.io), co ułatwia tworzenie naszego Centrum Dokumentacji. Każdy, kto chce pomóc, powinien zacząć zapoznawać się z [Git](getting-started/getting-started.md#knowing-how-to-use-git), [GitHub](getting-started/getting-started.md#knowing-how-to-use-github) i [MyST Markdown syntax](https://myst-parser.readthedocs.io/en/latest/intro.html).
 
 Instrukcje dotyczące instalacji i konfiguracji można znaleźć w repozytorium [GhostBSD Documentation GitHub](https://github.com/ghostbsd/documentation#local-development-server).
 

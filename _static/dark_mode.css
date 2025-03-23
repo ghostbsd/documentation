@@ -188,3 +188,10 @@ body.dark-mode .wy-menu-vertical li.toctree-l3.current {
 body.dark-mode .wy-menu-vertical li.toctree-l3.current a {
     background-color: transparent !important;
 }
+
+/* Fix inline <code> background in dark mode */
+body.dark-mode code.docutils.literal.notranslate {
+    background-color: #232323; /* Match your <pre> background */
+    border-radius: 3px;
+    border-color: #3c3c3c;
+}
