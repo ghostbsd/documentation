@@ -24,10 +24,11 @@ user/FAQ
 
 ```{toctree}
 :caption: Contributor Documentation
-:maxdepth: 4
+:maxdepth: 2
 :hidden:
 
-contributor/get-involved
+contributor/index
+contributor/getting-started/index
 contributor/contributor-levels
 contributor/ghostbsd-contributors-guide
 ```
@@ -35,7 +36,7 @@ contributor/ghostbsd-contributors-guide
 
 ```{toctree}
 :caption: Upstream Documentation
-:maxdepth: 4
+:maxdepth: 2
 :hidden:
 MATE Documentation <https://wiki.mate-desktop.org/>
 FreeBSD Documentation <https://docs.freebsd.org/>
@@ -46,7 +47,7 @@ FreeBSD Wiki <https://wiki.freebsd.org/>
 
 ```{toctree}
 :caption: Legal Documentation
-:maxdepth: 4
+:maxdepth: 2
 :hidden:
 
 legal/license
