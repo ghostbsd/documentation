@@ -21,12 +21,12 @@ Update Station uses FreeBSD pkg to perform system and software updates, which ha
 This section demonstrates how to upgrade to the latest version and discusses some of the considerations when upgrading the operating system.
 
 ### Update notification
-On GhostBSD, you will receive a notification in the notification area, an orange icon will be visible when new software or system updates are available. Left Click on the icon, and a Window will opne with the list of software and OS packages that will be upgraded.
+On GhostBSD, you will receive a notification in the notification area, an orange icon will be visible when new software or system updates are available. Left Click on the icon, and a Window will open with the list of software and OS packages that will be upgraded.
 
 ![notification](upgrade-img/notification.png){.bg-primary align=center}
 
 ### Before upgrading
-On the Upgrade list, a checkbox at the bottom is enabled by default to create a boot environment backup before the upgrade. It is recommended to keep it enabled in case an issue happens with the upgrade. With a BE backup the system can be restored to the stat it was before the upgrade was perform.
+On the Upgrade list, a checkbox at the bottom is enabled by default to create a boot environment backup before the upgrade. It is recommended to keep it enabled in case an issue happens with the upgrade. With a BE backup the system can be restored to the state it was before the upgrade was performed.
 
 ![upgrade_window](upgrade-img/upgrade_window.png){.bg-primary align=center}
 
@@ -41,7 +41,7 @@ A window with a progress bar will appear.
 ![progress](upgrade-img/progress.png){.bg-primary align=center}
 
 ### Upgrade completed
-After the upgrade is complete Update Station will be ask to restart the system if needed.
+After the upgrade is complete Update Station will ask to restart the system if needed.
 
 ![completed](upgrade-img/completed.png){.bg-primary align=center}
 
@@ -49,7 +49,7 @@ After the upgrade is complete Update Station will be ask to restart the system i
 Upgrading packages with pkg has to be done in a specific way, specifically with OS upgrade.
 
 ### Before upgrading
-Before upgrading with pkg make sure to backup the system boot environment with **bectl**. It is recommended to backup the system boot environment in case an issue happens with the upgrade. With a BE backup the system can be restored to the stat it was before the upgrade was perform.
+Before upgrading with pkg make sure to backup the system boot environment with **bectl**. It is recommended to backup the system boot environment in case an issue happens with the upgrade. With a BE backup the system can be restored to the state it was before the upgrade was performed.
 
 Here is an example on how to create BE.
 ```bash
@@ -82,7 +82,7 @@ To ignore this error set IGNORE_OSVERSION=yes
 Ignore the mismatch and continue? [y/N]:
 ```
 
-If a similar message than the above one is encounter, **sudo pkg upgrade -f** must be use to upgrade all installed packages or some problem could occur after rebooting. If **sudo pkg update -f** doesn't report kernel mismatch, **sudo pkg upgrade** can be used to upgrade packages.
+If a similar message than the above one is encounter, **sudo pkg upgrade -f** must be used to upgrade all installed packages or some problem could occur after rebooting. If **sudo pkg update -f** doesn't report kernel mismatch, **sudo pkg upgrade** can be used to upgrade packages.
 
 ### Starting the upgrade
 Run the command below if there is a kernel mismatch with **update -f**.
