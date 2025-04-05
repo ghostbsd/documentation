@@ -23,18 +23,20 @@ user/FAQ
 
 ```{toctree}
 :caption: Dokumentacja dla współpracowników
-:maxdepth: 4
+:maxdepth: 2
 :hidden:
 
-contributor/get-involved
-contributor/contributor-levels
-contributor/ghostbsd-contributors-guide
+contributor/index
+contributor/getting-started/index
+contributor/ports/index
+contributor/contributor-levels-pl
+contributor/ghostbsd-contributors-guide-pl
 ```
 
 
 ```{toctree}
 :caption: Dokumentacja upstream
-:maxdepth: 4
+:maxdepth: 2
 :hidden:
 MATE Documentation <https://wiki.mate-desktop.org/>
 FreeBSD Documentation <https://docs.freebsd.org/>
