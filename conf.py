@@ -35,7 +35,9 @@ myst_heading_anchors = 3
 
 myst_enable_extensions = [
     'colon_fence',
-    'attrs_inline'
+    'attrs_inline',
+    'linkify',
+    'colon_fence'
 ]
 
 master_doc = 'index'
@@ -65,6 +67,8 @@ html_context = {
   'github_repo': 'documentation',
   'github_version': 'master/',
 }
+
+html_sidebars = { '**': ['globaltoc.html', 'relations.html', 'sourcelink.html', 'searchbox.html'] }
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,

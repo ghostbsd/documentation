@@ -29,6 +29,7 @@ user/FAQ
 
 contributor/index
 contributor/getting-started/index
+contributor/ports/index
 contributor/contributor-levels
 contributor/ghostbsd-contributors-guide
 ```
