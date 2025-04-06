@@ -84,7 +84,7 @@ This lists files with conflicts, marked like:
 
 **Resolution Tips**:
 - Code conflicts require ports maintenance knowledge but are usually easy—often just changes Git can’t auto-merge.
-- **Keep GhostBSD changes**: Always preserve our customizations (e.g., in `Mk` files or `Makefiles`, the most common conflict sources EFE), especially fixes made before FreeBSD or changes to default options.
+- **Keep GhostBSD changes**: Always preserve our customizations (e.g., in `Mk` files or `Makefiles`, the most common conflict sources), especially fixes made before FreeBSD or changes to default options.
 - **Resolve `PORTVERSION` conflicts**: For `Makefile` `PORTVERSION`, use FreeBSD’s version (e.g., `1.2.4`) unless a comment above ours (e.g., `# Keep 1.2.3 for GhostBSD fix`) says to keep it.
 - **Handle directory conflicts**: If FreeBSD renamed or removed a directory, ensure all files are moved to the new location and remove the old directory (use `git status` to spot added/removed files).
 
