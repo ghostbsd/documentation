@@ -56,16 +56,13 @@ Fetch the latest changes from FreeBSD:
 ```shell
 git fetch freebsd
 ```
-Merge FreeBSD’s `master` branch into your branch:
+Merge FreeBSD’s `main` branch into your branch:
 ```shell
-git merge freebsd/master
+git merge freebsd/main
 ```
 
 - **If no conflicts occur**: Proceed to Step 5 (Testing).
 - **If conflicts occur**: Continue to Step 4 (Resolving Conflicts).
-
-You’re right—my wording for directory conflicts suggests restoring GhostBSD’s version when FreeBSD renames or removes a directory, but you want the resolver to ensure files are moved and the old directory is removed, aligning with FreeBSD’s change. Here’s the corrected section:
-
 ---
 
 ### 4. Resolve Merge Conflicts
