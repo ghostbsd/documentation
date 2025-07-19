@@ -29,10 +29,11 @@ user/FAQ
 
 contributor/index
 contributor/getting-started/index
-contributor/ports/index
+contributor/code/index
+contributor/maintenance-release/index
+contributor/documentation/index
 contributor/translations/index
-contributor/contributor-levels
-contributor/ghostbsd-contributors-guide
+contributor/community/index
 ```
 
 
