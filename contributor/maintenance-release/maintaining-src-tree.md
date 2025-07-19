@@ -1,4 +1,4 @@
-# Maintaining GhostBSD Src from FreeBSD Src
+# Maintaining GhostBSD Src from FreeBSD SRC
 
 ## Purpose
 This guide explains how to keep the GhostBSD src tree (https://github.com/ghostbsd/ghostbsd-src) current with the upstream FreeBSD src tree (https://github.com/freebsd/freebsd-src), manage stable and releng branches, resolve merge conflicts, and test changes before submission.
