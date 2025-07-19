@@ -36,9 +36,12 @@ myst_heading_anchors = 3
 myst_enable_extensions = [
     'colon_fence',
     'attrs_inline',
-    'linkify',
-    'colon_fence'
+    'linkify'
 ]
+
+# Configure linkify to only auto-link www.* and https://* patterns
+myst_linkify_fuzzy_links = False
+myst_url_schemes = ["https", "http"]
 
 master_doc = 'index'
 
@@ -51,6 +54,7 @@ templates_path = ['_templates']
 # directories to ignore when looking for source files.
 # This pattern also affects html_static_path and html_extra_path.
 exclude_patterns = ['README.md']
+pygments_style = 'default'
 
 
 # -- Options for HTML output -------------------------------------------------
