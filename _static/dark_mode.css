@@ -30,11 +30,56 @@ body.dark-mode h3,
 body.dark-mode h4,
 body.dark-mode h5,
 body.dark-mode h6 {
-    color: #ffffff; /* White headings */
+    color: #ffffff !important; /* White headings */
+}
+
+/* More specific rules for content headings */
+body.dark-mode .rst-content h1,
+body.dark-mode .rst-content h2,
+body.dark-mode .rst-content h3,
+body.dark-mode .rst-content h4,
+body.dark-mode .rst-content h5,
+body.dark-mode .rst-content h6 {
+    color: #ffffff !important; /* White headings in content */
+}
+
+/* Fix heading links that inherit link colors */
+body.dark-mode .rst-content h1 a,
+body.dark-mode .rst-content h2 a,
+body.dark-mode .rst-content h3 a,
+body.dark-mode .rst-content h4 a,
+body.dark-mode .rst-content h5 a,
+body.dark-mode .rst-content h6 a {
+    color: #ffffff !important; /* White heading links */
+}
+
+/* Target the specific toc-backref links in headings */
+body.dark-mode .rst-content a.toc-backref {
+    color: #ffffff !important; /* White toc backref links */
+}
+
+/* Target headerlink anchors in headings */
+body.dark-mode .rst-content a.headerlink {
+    color: #ffffff !important; /* White header anchor links */
+}
+
+/* Even more specific for document section headings */
+body.dark-mode .document h1,
+body.dark-mode .document h2,
+body.dark-mode .document h3,
+body.dark-mode .document h4,
+body.dark-mode .document h5,
+body.dark-mode .document h6 {
+    color: #ffffff !important; /* White headings in document */
 }
 
 body.dark-mode a {
     color: #4da8da; /* Light blue links */
+}
+
+/* Only apply visited link color to content area, not navigation */
+body.dark-mode .rst-content a:visited {
+    color: #bb86fc; /* Light purple for visited links */
 }
 
 body.dark-mode a:hover {
@@ -46,6 +91,65 @@ body.dark-mode pre {
     color: #e0e0e0; /* Light code text */
     border: 1px solid #3c3c3c;
 }
+
+/* Code blocks in dark mode */
+/*.dark-mode .highlight {*/
+/*    background: #2b2b2b !important;*/
+/*    border: 1px solid #444 !important;*/
+/*}*/
+
+/* Inline code in dark mode */
+.dark-mode .rst-content code.literal,
+.dark-mode .rst-content tt.literal {
+    background: #404040 !important;
+    color: #f8f8f2 !important;
+    border: 1px solid #555 !important;
+    padding: 2px 4px !important;
+}
+
+/* Syntax highlighting colors for dark mode */
+.dark-mode .highlight .c { color: #75715e !important; } /* comments */
+.dark-mode .highlight .k { color: #66d9ef !important; } /* keywords */
+.dark-mode .highlight .s { color: #e6db74 !important; } /* strings */
+.dark-mode .highlight .mi { color: #ae81ff !important; } /* numbers */
+.dark-mode .highlight .n { color: #f8f8f2 !important; } /* names */
+.dark-mode .highlight .nb { color: #f92672 !important; } /* builtins */
+.dark-mode .highlight .nf { color: #a6e22e !important; } /* functions */
+.dark-mode .highlight .o { color: #f92672 !important; } /* operators */
+.dark-mode .highlight .p { color: #f8f8f2 !important; } /* punctuation */
+.dark-mode .highlight .nn { color: #66d9ef !important; } /* imports/namespaces */
+.dark-mode .highlight .kn { color: #f92672 !important; } /* import keywords */
+.dark-mode .highlight .na { color: #a6e22e !important; } /* attribute names */
+.dark-mode .highlight .nc { color: #a6e22e !important; } /* class names */
+.dark-mode .highlight .nd { color: #a6e22e !important; } /* decorators */
+.dark-mode .highlight .ne { color: #a6e22e !important; } /* exceptions */
+.dark-mode .highlight .ni { color: #f92672 !important; } /* name indicators */
+.dark-mode .highlight .nl { color: #f92672 !important; } /* name labels */
+.dark-mode .highlight .nt { color: #f92672 !important; } /* name tags */
+.dark-mode .highlight .nv { color: #f8f8f2 !important; } /* name variables */
+.dark-mode .highlight .ow { color: #f92672 !important; } /* operator words */
+.dark-mode .highlight .w { color: #f8f8f2 !important; } /* whitespace */
+.dark-mode .highlight .mf { color: #ae81ff !important; } /* numbers float */
+.dark-mode .highlight .mh { color: #ae81ff !important; } /* numbers hex */
+.dark-mode .highlight .mo { color: #ae81ff !important; } /* numbers octal */
+.dark-mode .highlight .sb { color: #e6db74 !important; } /* string backtick */
+.dark-mode .highlight .sc { color: #e6db74 !important; } /* string char */
+.dark-mode .highlight .sd { color: #e6db74 !important; } /* string doc */
+.dark-mode .highlight .s2 { color: #e6db74 !important; } /* string double */
+.dark-mode .highlight .se { color: #ae81ff !important; } /* string escape */
+.dark-mode .highlight .sh { color: #e6db74 !important; } /* string heredoc */
+.dark-mode .highlight .si { color: #e6db74 !important; } /* string interpol */
+.dark-mode .highlight .sx { color: #e6db74 !important; } /* string other */
+.dark-mode .highlight .sr { color: #e6db74 !important; } /* string regex */
+.dark-mode .highlight .s1 { color: #e6db74 !important; } /* string single */
+.dark-mode .highlight .ss { color: #e6db74 !important; } /* string symbol */
+
+
+/* Code block container */
+/*.dark-mode .rst-content .highlight {*/
+/*    margin: 1em 0 !important;*/
+/*}*/
+
 
 /* Optional: Style the toggle button */
 button {

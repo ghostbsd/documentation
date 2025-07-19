@@ -1,7 +1,8 @@
-Documentation Contribution
-==========================
+# Getting Started with Documentation
 
-Writing documentation is a great way to start improving GhostBSD user experience and you will be helping a lot of GhostBSD users to better understand their desktop and applications. Anyone with reasonable English skills and good knowledge of FreeBSD, GhostBSD or MATE can help.
+Ready to contribute to GhostBSD documentation? This guide will help you get started with writing, editing, and improving our documentation to make GhostBSD more accessible to everyone.
+
+Writing documentation is a great way to start improving GhostBSD user experience, and you will be helping a lot of GhostBSD users to better understand their desktop and applications. Anyone with reasonable English skills and good knowledge of FreeBSD, GhostBSD or MATE can help.
 
 ## Communicating with the team
 
@@ -14,7 +15,7 @@ Those three messaging platform are connected together. So whatever you use IRC, 
 
 ## Getting the resources
 
-In order to document GhostBSD projects, you will want to run a [recent GhostBSD build](https://www.ghostbsd.org/download#latest_builds), and to document third-party projects, you will also need a recent version of that program. We are use [Sphinx](https://www.sphinx-doc.org) with [MyST](https://myst-parser.readthedocs.io) to makes it easy to create our Documentation Hub. Any one that wants to help should start to be familiar with [Git](getting-started/getting-started.md#knowing-how-to-use-git), [GitHub](getting-started/getting-started.md#knowing-how-to-use-github) and [MyST Markdown syntax](https://myst-parser.readthedocs.io/en/latest/intro.html).
+To document GhostBSD projects, you will want to run a [recent GhostBSD build](https://www.ghostbsd.org/download#latest_builds), and to document third-party projects, you will also need a recent version of that program. We are use [Sphinx](https://www.sphinx-doc.org) with [MyST](https://myst-parser.readthedocs.io) to makes it easy to create our Documentation Hub. Any one that wants to help should start to be familiar with [Git](getting-started/getting-started.md#knowing-how-to-use-git), [GitHub](getting-started/getting-started.md#knowing-how-to-use-github) and [MyST Markdown syntax](https://myst-parser.readthedocs.io/en/latest/intro.html).
 
 The instructions for install and setup can be found on the  [GhostBSD Documentation GitHub](https://github.com/ghostbsd/documentation#local-development-server) repository.
 

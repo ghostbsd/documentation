@@ -16,7 +16,7 @@ This guide explains how to keep the GhostBSD ports tree (https://github.com/ghos
 ### 1. Clone the Repository and Configure Remotes
 Clone the GhostBSD ports repository if you don’t already have it:
 ```shell
-git clone https://github.com/ghostbsd/ghostbsd-ports.git
+git clone git@github.com:ghostbsd/ghostbsd-ports.git
 cd ghostbsd-ports
 ```
 Add the FreeBSD ports repository as a remote:
@@ -40,7 +40,7 @@ origin     https://github.com/ghostbsd/ghostbsd-ports.git (push)
 ---
 
 ### 2. Create a New Working Branch
-Always work in a feature branch to keep `master` clean:
+Always work in a feature branch to keep `main` clean:
 ```shell
 git checkout master
 git pull origin master  # Ensure your local master is up-to-date

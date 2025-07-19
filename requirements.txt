@@ -1,3 +1,4 @@
-myst-parser
-sphinx-rtd-theme
 linkify-it-py
+myst-parser
+sphinx-autobuild
+sphinx-rtd-theme

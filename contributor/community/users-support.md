@@ -1,4 +1,4 @@
-<h1>Users Support</h1>
+# Users Support
 
 Helping other users is a great way to contribute back, and it helps developers to focus on working on GhostBSD bugs and new features. Anyone with reasonable Linux/BSD experience and English skills can help.
 
