@@ -315,3 +315,46 @@ body.dark-mode .admonition.note {
 body.dark-mode .admonition.note .admonition-title {
     background-color: #4da8da; /* Light blue accent */
 }
+
+/* Table styles for dark mode */
+body.dark-mode .wy-table-responsive table.docutils {
+    background-color: #2b2b2b; /* Dark table background */
+    color: #e0e0e0; /* Light text */
+    border-collapse: collapse;
+}
+
+body.dark-mode .wy-table-responsive table.docutils th {
+    background-color: #3c3c3c; /* Darker header background */
+    color: #ffffff; /* White header text */
+    border: 1px solid #555; /* Dark border */
+}
+
+body.dark-mode .wy-table-responsive table.docutils td {
+    background-color: #2b2b2b; /* Dark cell background */
+    color: #e0e0e0; /* Light cell text */
+    border: 1px solid #555; /* Dark border */
+}
+
+body.dark-mode .wy-table-responsive table.docutils tr.row-odd {
+    background-color: #333333 !important; /* Less dark for alternating rows */
+}
+
+body.dark-mode .wy-table-responsive table.docutils tr.row-even {
+    background-color: #2b2b2b !important; /* Regular dark background */
+}
+
+/* Target cells specifically within odd/even rows */
+body.dark-mode .wy-table-responsive table.docutils tr.row-odd td {
+    background-color: #333333 !important; /* Less dark for alternating rows */
+}
+
+body.dark-mode .wy-table-responsive table.docutils tr.row-even td {
+    background-color: #2b2b2b !important; /* Regular dark background */
+}
+
+/* Ensure code elements in tables are readable */
+body.dark-mode .wy-table-responsive table.docutils code.literal {
+    background-color: #404040; /* Darker code background in tables */
+    color: #f8f8f2; /* Light code text */
+    border: 1px solid #555;
+}
