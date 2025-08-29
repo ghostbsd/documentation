@@ -18,6 +18,7 @@ In general, BSD is also considered beyond the average computer user's knowledge.
 
 user/installation-guide/installation-guide
 user/upgrading-guide
+user/security-key
 user/FAQ
 ```
 
