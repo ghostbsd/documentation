@@ -8,13 +8,13 @@ GhostBSD is available for general use.
 ## System requirements
 
 * 2 GHz dual core Intel/AMD 64-bit processor
-* 4 GiB RAM (system memory for physical and virtualized installs)
+* 8 GiB RAM (system memory for physical and virtualized installs)
 * VGA capable of 1024x768 screen resolution
 * Network connection
 * 15 GiB of storage
 * Either a CD/DVD drive or a USB port for booting the installer media
 
-In the future, there may also be builds for other processor architectures. We would like to bring down the RAM requirement considerably.
+**Note**: While the system may boot with less RAM, 8 GiB is recommended for reliable installation and operation. Systems with 4 GiB or less may experience issues during installation due to video buffer usage and installer memory requirements.
 
 Please refer to [FreeBSD Hardware Compatibility](https://docs.freebsd.org/en/books/faq/#hardware) for more information on individual components.
 
@@ -107,7 +107,7 @@ Users have reported success in running GhostBSD in the following virtualization 
 Please note:
 
 * The VM needs to be __64-bit__
-* The VM needs __at least 4 GB of RAM__
+* The VM needs __at least 8 GB of RAM__
 * The VM needs __at least 2 CPU cores__
 * The boot process takes longer than you might expect; boot in verbose mode to see the details
 * For best results set **EFI/UEFI** boot mode (not BIOS)
@@ -129,7 +129,7 @@ Then, boot GhostBSD:
 
 ```
 qemu-system-x86_64 -machine type=q35,accel=kvm \
--enable-kvm -cpu host -smp 2 -m 4096 \
+-enable-kvm -cpu host -smp 2 -m 8192 \
 -device virtio-net,netdev=vmnic -netdev user,id=vmnic,hostfwd=tcp::5222-:22 \
 -vga std -soundhw hda -no-quit \
 -drive format=raw,file=${HOME}/.qemu/ghostbsd/ghostbsd.img \
@@ -166,7 +166,7 @@ Then add these two `qemu-system-x86_64` options:
 
 ### Proxmox VE
 
-* Memory: 4GB (not ballooned)
+* Memory: 8GB (not ballooned)
 * Processors: 2 (1 socket 2 cores)
 * BIOS: OVMF (UEFI)
 * Display: Default (VGA)
@@ -187,7 +187,7 @@ Install VirtualBox using your package manager or from the [website](https://virt
     * Set **Type** to "FreeBSD"
     * Set **Version** to "FreeBSD (64-bit)"
 * Memory size
-    * Increase the **RAM** to at least 4GB (4096MB)
+    * Increase the **RAM** to at least 8GB (8192MB)
 * Hard disk
     * Default settings are recommended.
 * Hard disk file type
