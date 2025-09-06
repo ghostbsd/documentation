@@ -27,7 +27,10 @@ Automation and system configuration:
 
 ## Getting Started with Code
 
-- [Development Environment Setup](development-setup) – Set up your development machine and tools
+### First Steps
+**[Development Environment Setup](development-setup)** – **Start here!** Set up your development machine, install tools, and configure your environment for GhostBSD development.
+
+### Development Guides
 - [Python Development Guide](python-guide) – Contributing to our GTK3 applications  
 - [C Development Guide](c-guide) – Working with system components
 - [Shell Scripting Guide](shell-guide) – Build tools and configuration scripts

@@ -1,25 +1,10 @@
-Getting Started
-===============
+# Development Environment Setup
 
-## Requirements
+This guide will help you set up your development machine for contributing code to GhostBSD. Whether you want to work on Python applications, C system tools, or shell scripts, follow these steps to get started.
 
-### Communication in English
-Our developers hail from all over the globe, and English is the common language we use to collaborate. You don’t need to be fluent, but you should be comfortable enough to understand and communicate ideas effectively.
+## Prerequisites
 
-If you're reading this, you're likely good to go!
-
-### Familiarity with Git
-We use Git as our version control system to manage changes across all projects. It’s a cornerstone of our workflow, so understanding the basics is essential.
-
-If you're new to Git, take a moment to learn it before diving in. Check out the [GitHub Docs](https://docs.github.com/en/get-started/start-your-journey) for a solid introduction. Focus on concepts like commits, branches, remotes, and pull requests.
-
-### A GitHub Account
-We host our repositories on GitHub, so you’ll need an account to browse code, fork projects, and submit pull requests. If you don’t have one yet, sign up at [GitHub](https://github.com/) and explore the [GitHub Docs](https://docs.github.com/) to get familiar with the platform.
-
-### Running GhostBSD
-For the best experience, run the latest stable version of GhostBSD on your development machine. While older versions or FreeBSD might work, the latest GhostBSD ensures compatibility with our tools and libraries.
-
-You can download the latest ISO from the [GhostBSD website](https://www.ghostbsd.org/download) and install it on a physical machine or a virtual environment.
+Before setting up your development environment, make sure you've covered the [general contributor requirements](../getting-started/index#requirements-for-all-contributors) including Git, GitHub account, and preferably running GhostBSD.
 
 ## Technologies We Use
 Here’s a quick rundown of the tools and languages you’ll encounter in GhostBSD development.
@@ -53,13 +38,20 @@ sudo pkg install dconf-editor
 
 Let's get your machine ready for GhostBSD development.
 
-### Install GhostBSD Base System Development Tools
+### Install Development Tools
 
-GhostBSD doesn’t come with base system development tools preinstalled. To enable compiling code and ports, install the `GhostBSD*-dev` packages. These include essential build tools, compilers, and libraries:
+#### Essential Development Packages
+Install the development toolkit and OS development packages:
 
 ```shell
+# Install development tools and utilities
+sudo pkg install ghostbsd-devel-tools
+
+# Install OS development packages (compilers, libraries, build tools)
 sudo pkg install -g 'GhostBSD*-dev'
 ```
+
+The `ghostbsd-devel-tools` package provides commonly used development tools and utilities, while the `GhostBSD*-dev` packages include essential build tools, compilers, and libraries needed for system-level development.
 
 ### Create a Development Directory
 Organize your work in a dedicated directory. A common spot is your home directory:
