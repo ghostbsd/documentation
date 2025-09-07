@@ -31,7 +31,7 @@ Automation and system configuration:
 **[Development Environment Setup](development-setup)** – **Start here!** Set up your development machine, install tools, and configure your environment for GhostBSD development.
 
 ### Development Guides
-- [Python Development Guide](python-guide) – Contributing to our GTK3 applications  
+- [Python Development Guide](python-guide) – Python coding standards, typing, and GTK3 development  
 - [C Development Guide](c-guide) – Working with system components
 - [Shell Scripting Guide](shell-guide) – Build tools and configuration scripts
 - [Testing and QA](testing) – How to test your changes
