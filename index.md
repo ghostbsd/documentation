@@ -5,7 +5,7 @@ This documentation portal has all the information users need to get going with t
 
 ## Overview
 
-GhostBSD is a simple, elegant, and friendly BSD operating system for desktops and laptops based on FreeBSD. GhostBSD is a slow-rolling release while some GNU/Linux distros are on the bleeding edge side; we tried to offer a stable update and release cycle. The official desktop environment is MATE. The system comes with a graphical application to install software and update your system. Most codecs to play multimedia files are pre-installed. The installer leverages OpenZFS makes it easy to install and is suitable for newcomers to BSD. With modest hardware requirements, GhostBSD is ideal for modern workstations and 64-bit single-board computer hardware.
+GhostBSD is a simple, elegant, and friendly BSD operating system for desktops and laptops based on FreeBSD. GhostBSD is a slow-rolling release, while some GNU/Linux distros are on the bleeding edge; we try to offer a stable update and release cycle. The official desktop environment is MATE. The system comes with a graphical application to install software and update your system. Most codecs to play multimedia files are pre-installed. The installer leverages OpenZFS which makes it easy to install and is suitable for newcomers to BSD. With modest hardware requirements, GhostBSD is ideal for modern workstations and 64-bit single-board computer hardware.
 
 ## Our Goal
 
