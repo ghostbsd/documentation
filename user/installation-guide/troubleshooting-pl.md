@@ -20,3 +20,15 @@ Czasami pliki ISO mogą zostać uszkodzone podczas pobierania lub tworzenia boot
 Spróbuj stworzyć bootowalny USB za pomocą [najnowszego ISO](https://www.ghostbsd.org/download) dostępnego na stronie Pobierania w sekcji *Najnowsze wersje*. GhostBSD jest wersją rolling release i czasami aktualizacje i poprawki są wdrażane do najnowszej wersji przed utworzeniem nowego oficjalnego obrazu.
 
 *Proszę zauważyć*: Ta sekcja jest niekompletna i obecnie jest aktualizowana.
+
+## Po instalacji wybór GhostBSD uruchamia FreeBSD.
+
+### GhostBSD i FreeBSD są zainstalowane na tym samym dysku.
+
+Nie instaluj GhostBSD i FreeBSD na tym samym dysku.
+
+W systemach UEFI korzystają one z tego samego loadera. Ten loader przeszukuje partycje na dysku startowym i może uruchomić istniejącą instalację FreeBSD nawet wtedy, gdy wybierzesz GhostBSD w menu oprogramowania układowego lub w rEFInd.
+
+Zainstaluj GhostBSD na osobnym dysku. Dual-boot z Windows lub Linux na tym samym dysku jest obsługiwany.
+
+Jeśli oba systemy są już na jednym dysku, uruchom komputer z pamięci USB GhostBSD live i pozostaw na tym dysku tylko jeden z nich albo przenieś GhostBSD na osobny dysk.

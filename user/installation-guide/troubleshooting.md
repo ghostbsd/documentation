@@ -47,3 +47,15 @@ Users of affected Apple hardware may find it impossible to set the Mac to use a 
 ### …
 
 Please note: this section is incomplete.
+
+## After installation, selecting GhostBSD boots FreeBSD.
+
+### GhostBSD and FreeBSD are installed on the same disk.
+
+Do not install GhostBSD and FreeBSD on the same disk.
+
+On UEFI systems they share the same boot loader. That loader searches partitions on the boot disk and can start the existing FreeBSD system even when you select GhostBSD in the firmware menu or in rEFInd.
+
+Install GhostBSD on a separate disk. Dual-boot with Windows or Linux on the same disk is supported.
+
+If both are already on one disk, boot from the GhostBSD live USB and keep only one of the two systems on that disk, or move GhostBSD to its own disk.

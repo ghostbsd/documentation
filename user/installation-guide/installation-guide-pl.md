@@ -14,6 +14,10 @@ Po przeczytaniu tego przewodnika będziesz wiedział:
   * Jak zainstalować obok innego systemu operacyjnego.
 * Rozwiązywanie problemów z instalatorem i nośnikami live.
 
+:::{warning}
+Nie instaluj GhostBSD i FreeBSD na tym samym dysku. Korzystają z tego samego loadera UEFI, więc GhostBSD może uruchomić istniejącą instalację FreeBSD. Zainstaluj GhostBSD na osobnym dysku. Dual-boot z Windows lub Linux jest obsługiwany.
+:::
+
 ```{toctree}
 :caption: Spis treści
 

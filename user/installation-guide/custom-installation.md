@@ -5,6 +5,14 @@ A custom installation and full disk installation of GhostBSD begin the same way.
 
 The purpose of this guide is not to provide the steps for every possible configuration, but to provide some background to help with custom partitioning and filesystem layouts. The [Installing GhostBSD](#installing-ghostbsd) section has the steps needed for a custom installation with the recommended setup using UEFI, GPT and OpenZFS.
 
+:::{warning}
+Do not install GhostBSD and FreeBSD on the same disk.
+
+GhostBSD uses the FreeBSD UEFI loader. When both operating systems share a disk, that loader can boot the existing FreeBSD installation instead of GhostBSD. Choosing rEFInd does not change this, because rEFInd still starts the same loader.
+
+Install GhostBSD on its own disk. Dual-boot with Windows or Linux on the same disk is supported. To keep more than one GhostBSD version, use ZFS boot environments rather than a second FreeBSD installation.
+:::
+
 ## Partitioning schemes
 
 There are two partitioning schemes available in GhostBSD that are used to divide a disk into sections called slices or partitions. There is the Master Boot Record (MBR) layout and the GUID Partition Table (GPT) layout. Generally, MBR disks are used if the machine boots with the legacy Basic Input/Output System (BIOS) and GPT disks are used when booting with the newer Unified Extensible Firmware Interface (UEFI). UEFI can boot from a GPT or MBR disk and in some machines there is compatibility code that allows BIOS to boot from GPT disks, in addition to, MBR disks.[^1]
