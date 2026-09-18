@@ -5,6 +5,14 @@ Instalacja niestandardowa i pełna instalacja dysku GhostBSD zaczynają się w t
 
 Celem tego przewodnika nie jest dostarczenie kroków dla każdej możliwej konfiguracji, ale zapewnienie pewnego kontekstu, który pomoże w niestandardowym partycjonowaniu i układach systemów plików. Sekcja [Instalacja GhostBSD](#installing-ghostbsd) zawiera kroki potrzebne do niestandardowej instalacji z zalecaną konfiguracją używającą UEFI, GPT i OpenZFS.
 
+:::{warning}
+Nie instaluj GhostBSD i FreeBSD na tym samym dysku.
+
+GhostBSD używa loadera UEFI FreeBSD. Gdy oba systemy są na jednym dysku, ten loader może uruchomić istniejącą instalację FreeBSD zamiast GhostBSD. Wybór rEFInd tego nie zmienia, ponieważ rEFInd i tak uruchamia ten sam loader.
+
+Zainstaluj GhostBSD na osobnym dysku. Dual-boot z Windows lub Linux na tym samym dysku jest obsługiwany. Aby zachować więcej niż jedną wersję GhostBSD, używaj środowisk startowych ZFS zamiast drugiej instalacji FreeBSD.
+:::
+
 ## Schematy partycjonowania
 
 W GhostBSD dostępne są dwa schematy partycjonowania, które są używane do dzielenia dysku na sekcje zwane slice’ami lub partycjami. Istnieje układ Master Boot Record (MBR) oraz układ GUID Partition Table (GPT). Ogólnie rzecz biorąc, dyski MBR są używane, jeśli maszyna uruchamia się z użyciem starszego systemu Basic Input/Output System (BIOS), natomiast dyski GPT są używane, gdy uruchamiana jest z nowszym Unified Extensible Firmware Interface (UEFI). UEFI może uruchamiać się z dysku GPT lub MBR, a w niektórych maszynach istnieje kod kompatybilności, który umożliwia BIOS-owi uruchamianie z dysków GPT, oprócz dysków MBR.[^1]

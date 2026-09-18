@@ -45,6 +45,16 @@ If you need to use an application only available on a specific operating system,
 
 If you migrate to GhostBSD from some other UNIX®-like environment, you already know most of what you need to know. However, if your background is in graphic-driven operating systems such as Microsoft Windows® and older versions of MacOS®, expect to invest additional time learning the UNIX way of doing things.
 
+### Can I install GhostBSD and FreeBSD on the same disk?
+
+No. Do not install GhostBSD and FreeBSD on the same disk.
+
+They share the same UEFI boot loader. On one disk that loader can boot FreeBSD instead of GhostBSD, even if you choose rEFInd or pick GhostBSD in the firmware boot menu.
+
+Put GhostBSD on its own disk. Dual-boot with Windows or Linux on the same disk is supported. To run more than one GhostBSD version, use ZFS boot environments.
+
+See the [custom installation](installation-guide/custom-installation.md) and [troubleshooting](installation-guide/troubleshooting.md) guides.
+
 ## Support
 
 ### What’s the best way to get support?
