@@ -58,4 +58,4 @@ On UEFI systems they share the same boot loader. That loader searches partitions
 
 Install GhostBSD on a separate disk. Dual-boot with Windows or Linux on the same disk is supported.
 
-If both are already on one disk, boot from the GhostBSD live USB and keep only one of the two systems on that disk, or move GhostBSD to its own disk.
+If both are already on one disk, boot from the GhostBSD live USB and back up all data from both installations to an external disk. Use `gpart show` and the partition labels and filesystems to identify the GhostBSD and FreeBSD partitions; mount candidate partitions read-only if necessary and verify their contents before making changes. Remove the FreeBSD installation by deleting only its partitions, or relocate one installation to another disk, while preserving the desired system and its data. Finally, use the GhostBSD installer to reinstall or repair the GhostBSD boot loader, then reboot and verify that GhostBSD starts.
