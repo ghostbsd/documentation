@@ -15,7 +15,7 @@ Install GhostBSD on its own disk. Dual-boot with Windows or Linux on the same di
 
 ## Partitioning schemes
 
-There are two partitioning schemes available in GhostBSD that are used to divide a disk into sections called slices or partitions. There is the Master Boot Record (MBR) layout and the GUID Partition Table (GPT) layout. Generally, MBR disks are used if the machine boots with the legacy Basic Input/Output System (BIOS) and GPT disks are used when booting with the newer Unified Extensible Firmware Interface (UEFI). UEFI can boot from a GPT or MBR disk and in some machines there is compatibility code that allows BIOS to boot from GPT disks, in addition to, MBR disks.[^1]
+There are two partitioning schemes available in GhostBSD that are used to divide a disk into sections called slices or partitions. There is the Master Boot Record (MBR) layout and the GUID Partition Table (GPT) layout. Generally, MBR disks are used if the machine boots with the legacy Basic Input/Output System (BIOS) and GPT disks are used when booting with the newer Unified Extensible Firmware Interface (UEFI). UEFI can boot from a GPT or MBR disk and in some machines there is compatibility code that allows BIOS to boot from GPT disks, in addition to MBR disks.[^1]
 
 ### MBR
 
@@ -35,7 +35,7 @@ UFS is derived from the original filesystem used in Version 7 UNIX. During its l
 
 ### OpenZFS
 
-ZFS is a modern filesystem first created as part of the Solaris&reg; operating system. Solaris and ZFS were released under open source licenses for a brief time. Eventually, both were placed back under closed source licenses. Prior to the license changes, ZFS was forked and developed by the open source community and is now used in various operating systems as OpenZFS.[^4] There are numerous benefits to using OpenZFS, such as, error checking, data compression and file system snapshots.[^5]
+ZFS is a modern filesystem first created as part of the Solaris&reg; operating system. Solaris and ZFS were released under open source licenses for a brief time. Eventually, both were placed back under closed source licenses. Prior to the license changes, ZFS was forked and developed by the open source community and is now used in various operating systems as OpenZFS.[^4] There are numerous benefits to using OpenZFS, such as error checking, data compression and file system snapshots.[^5]
 
 ## Installing GhostBSD
 
@@ -63,11 +63,11 @@ After choosing the desired partitioning scheme, click "+ Add" to create that lay
 
 ### Creating partitions
 
-The default installation of GhostBSD will create three partitions. These are boot, root, and swap. There are a variety of different configurations including omitting swap or placing /home, /usr, or /var on their own partitions or disks. These variations can also involve using either UFS or OpenZFS on GPT or MBR partitioned disks with machines that are booted with BIOS or UEFI. The example below will manually create a layout that is similar the default installation. It will use OpenZFS on a GPT disk with a machine that is booted with UEFI.
+The default installation of GhostBSD will create three partitions. These are boot, root, and swap. There are a variety of different configurations including omitting swap or placing /home, /usr, or /var on their own partitions or disks. These variations can also involve using either UFS or OpenZFS on GPT or MBR partitioned disks with machines that are booted with BIOS or UEFI. The example below will manually create a layout that is similar to the default installation. It will use OpenZFS on a GPT disk with a machine that is booted with UEFI.
 
 #### Boot partition
 
-The first partition to create is the boot partition. Select the free space under the disk label, here these values are "freespace1" and "ada0". Then, click "Create" to open the "Add a Partition" dialog. Select "UEFI" and change the size. Here were are using 200MB. Click "+ Add" to create the UEFI partition.
+The first partition to create is the boot partition. Select the free space under the disk label, here these values are "freespace1" and "ada0". Then, click "Create" to open the "Add a Partition" dialog. Select "UEFI" and change the size. Here we are using 200MB. Click "+ Add" to create the UEFI partition.
 
 ![Create the UEFI boot partition.](images/custom-installation/5-efi-partition.png)
 
@@ -83,7 +83,7 @@ It is necessary to account for the size of the swap partition (if using one) and
 
 #### Swap Partition
 
-The final partition to create is for swap. Depending on you needs and the amount of RAM in the computer this partition can be omitted. Generally, a few GB for swap is helpful in the event that the computer exceeds the amount RAM installed.
+The final partition to create is for swap. Depending on your needs and the amount of RAM in the computer this partition can be omitted. Generally, a few GB for swap is helpful in the event that the computer exceeds the amount of RAM installed.
 
 In the same manner as the previous partition, select the free space and Click "Create". In the "Add a Partition" dialog make sure "SWAP" is selected, allocate the desired amount of swap and click "+ Add" to create the partition.
 
